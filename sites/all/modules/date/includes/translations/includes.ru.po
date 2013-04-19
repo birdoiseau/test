@@ -1,0 +1,182 @@
+# Russian translation of date (6.x-2.9)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  date/includes/date_api_filter_handler.inc: n/a
+#  date/includes/date_api.views.inc: n/a
+#  date/includes/date_api_argument_handler.inc: n/a
+#  date/includes/date_navigation_plugin_style.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (6.x-2.9)\n"
+"POT-Creation-Date: 2013-04-16 13:23-0400\n"
+"PO-Revision-Date: 2010-08-29 07:02-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: includes/date_api_filter_handler.inc:101
+msgid "Select"
+msgstr "Выбрать"
+
+#: includes/date_api_filter_handler.inc:413
+msgid "@min and @max"
+msgstr "@min и @max"
+
+#: includes/date_api.views.inc:134,145
+msgid "Undated"
+msgstr "Без даты"
+
+#: includes/date_api_argument_handler.inc:138
+msgid "You must select at least one date field for this argument."
+msgstr ""
+"Вы должны выбрать как минимум одно "
+"поле даты для данного аргумента."
+
+#: includes/date_api.views.inc:77,84
+msgid "Date browser"
+msgstr "Календарь"
+
+#: includes/date_api.views.inc:78
+msgid ""
+"Date back/next navigation to attach to other displays. Requires the "
+"Date argument."
+msgstr ""
+
+#: includes/date_api.views.inc:100
+msgid "Date browser style"
+msgstr ""
+
+#: includes/date_api.views.inc:101
+msgid "Creates back/next navigation."
+msgstr "Создать назад/вперед навигацию."
+
+#: includes/date_api_argument_handler.inc:91
+msgid ""
+"Select the type of date value to be used in defaults, summaries, and "
+"navigation. For example, a granularity of 'month' will set the default "
+"date to the current month, summarize by month in summary views, and "
+"link to the next and previous month when using date navigation."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:157
+msgid "Select date field(s) to filter with this argument."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:124
+msgid "Date form type"
+msgstr "Тип формы даты"
+
+#: includes/date_api_filter_handler.inc:131
+msgid ""
+"Select a granularity for the date filter. For instance, selecting "
+"'day' will create a filter where users can select the year, month, and "
+"day."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:171
+msgid "You must select at least one date field for this filter."
+msgstr ""
+"Вы должны выбрать как минимум одно "
+"поле даты для данного фильтра."
+
+#: includes/date_api_filter_handler.inc:237
+msgid "Date default"
+msgstr "Дата по умолчанию"
+
+#: includes/date_api_filter_handler.inc:243
+msgid "To date default"
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:375
+msgid ""
+"Please set a default value for the To date as well as the From date "
+"when using default values with the Between or Not between operators."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:388
+msgid "Missing date fields!"
+msgstr "Поля даты не найдены!"
+
+#: includes/date_api_filter_handler.inc:407
+msgid "(@field) <strong>Exposed</strong> @widget @format"
+msgstr "(@field) <strong>Раскрыто</strong> @widget @format"
+
+#: includes/date_api_filter_handler.inc:103
+msgid "Popup"
+msgstr "Всплывающее окно"
+
+#: includes/date_api_argument_handler.inc:119
+msgid ""
+"Select one or more date fields to filter with this argument. Do not "
+"select both the 'From date' and 'To date' for CCK date fields, only "
+"one of them is needed."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:127
+msgid "Choose the form element to use for date selection."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:234
+msgid "Absolute value"
+msgstr "Абсолютное значение"
+
+#: includes/date_api_filter_handler.inc:239
+msgid "Relative value"
+msgstr "Относительное значение"
+
+#: includes/date_api_filter_handler.inc:239
+msgid ""
+"Relative values will be used if no date is set above. Use 'now' to "
+"default to the current date at runtime or add modifiers like 'now +1 "
+"day'. The To date default value is used when the operator is set to "
+"'between' or 'not between'."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:239
+msgid ""
+"If the filter is exposed, these values will be used to set the inital "
+"value of the exposed filter. Leave both date and default values blank "
+"to start with no value in the exposed filter."
+msgstr ""
+
+#: includes/date_navigation_plugin_style.inc:28
+msgid "The %style cannot use more than one Date: Date argument."
+msgstr ""
+
+#: includes/date_navigation_plugin_style.inc:31
+msgid ""
+"The %style requires the Date: Date argument be set to default to the "
+"current date."
+msgstr ""
+
+#: includes/date_navigation_plugin_style.inc:38
+msgid "The %style requires the Date: Date argument."
+msgstr ""
+
+#: includes/date_api.views.inc:130,141
+msgid "Date (!base_table)"
+msgstr "Дата (!base_table)"
+
+#: includes/date_api.views.inc:131
+msgid ""
+"Filter any Views !base_table date field by a date argument, using any "
+"common ISO date/period format (i.e. YYYY, YYYY-MM, YYYY-MM-DD, "
+"YYYY-W99, YYYY-MM-DD--P3M, P90D, etc)."
+msgstr ""
+
+#: includes/date_api.views.inc:142
+msgid "Filter any Views !base_table date field."
+msgstr ""
+
+#: includes/date_api_filter_handler.inc:232
+msgid ""
+" You can use any values PHP's date_create() can understand, like "
+"between '12AM today' and '12AM tomorrow."
+msgstr ""
+" Вы можете использовать любые "
+"значения, которые понимает PHP функция "
+"date_create(), такие как '12AM today' и '12AM tomorrow'."
+

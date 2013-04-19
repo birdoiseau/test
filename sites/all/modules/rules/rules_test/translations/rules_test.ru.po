@@ -1,0 +1,43 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules_test/rules_test.rules_defaults.inc: n/a
+#  rules/rules_test/rules_test.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2010-07-11 23:04-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules_test/rules_test.rules_defaults.inc:18
+msgid "Test altering arguments by reference"
+msgstr ""
+
+#: rules_test/rules_test.rules_defaults.inc:43,83
+msgid "Test changing arguments per action"
+msgstr ""
+
+#: rules_test/rules_test.rules_defaults.inc:61
+msgid "Test changing arguments per action - check"
+msgstr ""
+
+#: rules_test/rules_test.rules_defaults.inc:105
+msgid "Test adding a new variable"
+msgstr ""
+
+#: rules_test/rules_test.info:0
+msgid "Tests the functionality of the rule engine"
+msgstr ""
+"Проверяет работоспособность движка "
+"правил."
+
+#: rules_test/rules_test.info:0
+msgid "Rules Simpletest"
+msgstr ""
+

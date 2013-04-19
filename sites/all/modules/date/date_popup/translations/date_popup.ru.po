@@ -1,0 +1,157 @@
+# Russian translation of date (6.x-2.9)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  date/date_popup/date_popup.module: n/a
+#  date/date_popup/date_popup.install: n/a
+#  date/date_popup/date_popup.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (6.x-2.9)\n"
+"POT-Creation-Date: 2013-04-16 13:23-0400\n"
+"PO-Revision-Date: 2010-08-29 11:15-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_popup/date_popup.module:304
+msgid "Close"
+msgstr "Закрыть"
+
+#: date_popup/date_popup.module:303
+msgid "Clear"
+msgstr "Очистить"
+
+#: date_popup/date_popup.module:355
+msgid "Previous field"
+msgstr "Предыдущее поле"
+
+#: date_popup/date_popup.module:355
+msgid "Next field"
+msgstr "Следующее поле"
+
+#: date_popup/date_popup.module:355
+msgid "Increment"
+msgstr "Увеличение"
+
+#: date_popup/date_popup.module:355
+msgid "Decrement"
+msgstr "Уменьшение"
+
+#: date_popup/date_popup.install:15
+msgid "Date Popup requirements"
+msgstr "Требуется указать popup даты"
+
+#: date_popup/date_popup.info:0
+msgid ""
+"Enables jquery popup calendars and time entry widgets for selecting "
+"dates and times."
+msgstr ""
+"Включает jquery popup календарь и виджет "
+"ввода времени для выбранных полей "
+"даты и времени."
+
+#: date_popup/date_popup.module:411
+msgid "Field %field is required."
+msgstr "Поле %field обязательно."
+
+#: date_popup/date_popup.module:435
+msgid "Field %field is invalid."
+msgstr "Поле %field неверно."
+
+#: date_popup/date_popup.module:659
+msgid "Use default jQuery timepicker"
+msgstr ""
+"Использовать стандартный jQuery выбор "
+"даты"
+
+#: date_popup/date_popup.module:659
+msgid "Manual time entry, no jQuery timepicker"
+msgstr ""
+"Ввод времени вручную, без "
+"использования jQuery"
+
+#: date_popup/date_popup.module:660
+msgid "Timepicker"
+msgstr "Выбор времени"
+
+#: date_popup/date_popup.module:662
+msgid "Choose the jQuery timepicker to user."
+msgstr ""
+"Использовать jQuery выбор даты для "
+"пользователя"
+
+#: date_popup/date_popup.module:635
+msgid "Allows the user to configure the Date Popup settings."
+msgstr ""
+"Разрешить пользователю настраивать "
+"popup даты"
+
+#: date_popup/date_popup.module:665
+msgid ""
+"<p>The Date Popup module uses a jQuery timepicker module. There is no "
+"\"official\" jQuery UI timepicker, and not everyone likes the one that "
+"is included here. If you do not want to use the timepicker, you can "
+"turn it off below and users will get a regular textfield instead.</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:682
+msgid ""
+"<p>The Date Popup calendar includes some css for IE6 that breaks css "
+"validation. Since IE 6 is now superceded by IE 7 and IE 8, the special "
+"css for IE 6 has been removed from the regular css used by the Date "
+"Popup. If you find you need that css after all, you can add it back in "
+"your theme. Look at the way the Garland theme adds special IE-only css "
+"in in its page.tpl.php file. The css you need is:</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:634
+msgid "Date Popup Configuration"
+msgstr "Настройка Date Popup"
+
+#: date_popup/date_popup.module:67,71
+msgid "Date Popup default"
+msgstr "Popup даты по умолчанию"
+
+#: date_popup/date_popup.module:68,72
+msgid "jQuery UI default"
+msgstr "jQuery UI по умолчанию"
+
+#: date_popup/date_popup.module:96
+msgid ""
+"The Date Popup module now requires the <a href=\"@link\">jQuery UI "
+"module</a> as a source for the datepicker. Please install it "
+"immediately."
+msgstr ""
+
+#: date_popup/date_popup.module:650
+msgid "Datepicker css"
+msgstr "CSS для выбора даты"
+
+#: date_popup/date_popup.module:651
+msgid "Choose the css to use for the jQuery UI datepicker."
+msgstr ""
+"Выбрать CSS для использования в jQuery UI "
+"выборе даты."
+
+#: date_popup/date_popup.module:655
+msgid ""
+"<p>The Date Popup calendar datepicker uses the jQuery UI datepicker. "
+"You must install the jQuery UI module for this to work. It has its own "
+"css file, or there is a Drupal adaptation included in Date Popup that "
+"you can use.</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:83
+msgid "jQuery UI @theme"
+msgstr ""
+
+#: date_popup/date_popup.install:16
+msgid ""
+"The Date Popup module needs code added by the <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI module.</a> "
+"Install that module as soon as possible."
+msgstr ""
+

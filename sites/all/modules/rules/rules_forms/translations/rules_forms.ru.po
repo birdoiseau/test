@@ -1,0 +1,335 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules_forms/rules_forms.admin.inc: n/a
+#  rules/rules_forms/rules_forms.rules.inc: n/a
+#  rules/rules_forms/rules_forms.rules_forms.inc: n/a
+#  rules/rules_forms/rules_forms.module: n/a
+#  rules/rules_forms/rules_forms.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2010-08-28 07:48-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules_forms/rules_forms.admin.inc:28
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: rules_forms/rules_forms.rules.inc:58
+msgid "Path"
+msgstr "Адрес"
+
+#: rules_forms/rules_forms.rules.inc:144
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: rules_forms/rules_forms.rules.inc:163
+msgid "form"
+msgstr "форма"
+
+#: rules_forms/rules_forms.rules.inc:59
+msgid "Query"
+msgstr "SQL-запрос"
+
+#: rules_forms/rules_forms.rules.inc:43,57,68,80,97,119,136,312
+msgid "Form"
+msgstr "Форма"
+
+#: rules_forms/rules_forms.admin.inc:105
+msgid "Activate"
+msgstr "Активировать"
+
+#: rules_forms/rules_forms.admin.inc:57
+msgid "The settings have been saved."
+msgstr "Настройки были сохранены."
+
+#: rules_forms/rules_forms.rules.inc:45
+msgid "Form ID"
+msgstr "ID формы"
+
+#: rules_forms/rules_forms.admin.inc:79
+msgid "Events for %form_id have already been activated."
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:103
+msgid "Are you sure you want to activate events for %form?"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:115
+msgid "%form has been activated."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:20
+msgid "@form is being built"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:44,313
+msgid "Form state"
+msgstr "Состояние формы"
+
+#: rules_forms/rules_forms.rules.inc:55
+msgid "Set the redirect target of the form"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:66
+msgid "Hide an element of the form"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:72
+msgid "The element that should not appear."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:78
+msgid "Adjust weight of an element in the form"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:84
+msgid "The element that should be adjusted."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:88
+msgid "Element weight"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:89
+msgid "Low numbers make the element bubble up, high numbers sink it down."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:95
+msgid "Insert HTML prefix/suffix code"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:71,83,100,122,139,316
+msgid "Form element ID"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:101,317
+msgid "ID of the form element to be targeted."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:105
+msgid "Prefixed HTML"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:106
+msgid "HTML inserted before."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:110
+msgid "Suffixed HTML"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:111
+msgid "HTML inserted after."
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:55
+msgid ""
+"ID of the form element to be targeted. Leave empty to apply "
+"prefix/suffix code to the whole form."
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:82
+msgid "You have to specify at least the prefix or suffix field."
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:119
+msgid "Set form redirect target to '@redirect'"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:127
+msgid "Insert HTML prefix/suffix code on form"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:130
+msgid "Insert HTML prefix/suffix code on '@element'"
+msgstr ""
+
+#: rules_forms/rules_forms.module:28
+msgid "Form events"
+msgstr "События форм"
+
+#: rules_forms/rules_forms.module:29
+msgid "Configure Rules forms events."
+msgstr ""
+
+#: rules_forms/rules_forms.module:38
+msgid "Activate events for a form"
+msgstr ""
+
+#: rules_forms/rules_forms.info:0
+msgid "Rules Forms support"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:92
+msgid "Custom form label"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:95
+msgid ""
+"Enter a custom label to better recognize the form in the "
+"administration user interface."
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:104
+msgid ""
+"Once the activation is confirmed, events on this form can be used to "
+"trigger rules."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:25
+msgid "@form is submitted"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:30
+msgid "@form is being validated"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:60
+msgid "Fragment"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:128
+msgid "The message that should be displayed to the user."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:123
+msgid "The element that should be marked."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:310
+msgid "Form element has value"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:98
+msgid "Adjust weight of form element '@element' to @weight"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:105
+msgid "Hide form element '@element'"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:141
+msgid "Set form error on element '@element'"
+msgstr ""
+
+#: rules_forms/rules_forms.rules_forms.inc:155
+msgid "Form element '@element' value check"
+msgstr ""
+
+#: rules_forms/rules_forms.module:106
+msgid "Element ID: %elem"
+msgstr ""
+
+#: rules_forms/rules_forms.info:0
+msgid ""
+"Provides events, conditions and actions for rule-based form "
+"customization."
+msgstr ""
+"Предоставляет события, условия и "
+"действия для управляемого правилами "
+"изменения форм."
+
+#: rules_forms/rules_forms.admin.inc:16
+msgid "Enable event activation messages on forms"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:18
+msgid ""
+"If checked, there will be a message on each form containing a link to "
+"activate events for the form. Only visible for your currently logged "
+"in user account."
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:22
+msgid "Display form element IDs"
+msgstr ""
+"Показывать идентификаторы (ID) "
+"элементов форм"
+
+#: rules_forms/rules_forms.admin.inc:24
+msgid ""
+"If checked, the identifier of every single form element will be "
+"displayed on event-activated forms. Only visible for your currently "
+"logged in user account."
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:35
+msgid "Forms where events are activated"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:37
+msgid ""
+"Forms that currently invoke events. Select forms to deactivate events "
+"on them."
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:41
+msgid "Deactivate events"
+msgstr ""
+
+#: rules_forms/rules_forms.admin.inc:70
+msgid "The event settings have been saved."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:154
+msgid ""
+"Examples on the \"Create Story\" form: \"title\" for the title field "
+"or \"body_field[body]\" for the body field."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:321
+msgid "Value(s)"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:322
+msgid ""
+"Value(s) assigned to the form element. If the form element allows "
+"multiple values, enter one value per line."
+msgstr ""
+
+#: rules_forms/rules_forms.module:18
+msgid "Settings and overview of form events."
+msgstr "Настройки и обзор событий форм."
+
+#: rules_forms/rules_forms.module:61
+msgid "Activate events for "
+msgstr ""
+
+#: rules_forms/rules_forms.module:103
+msgid "Hidden element ID: %elem"
+msgstr ""
+
+#: rules_forms/rules_forms.module:111
+msgid "Container element ID: %elem"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:134
+msgid "Set the default value of a form element"
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:140
+msgid "The element that should be targeted."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:145
+msgid ""
+"The value(s) that will be displayed as default. If the form element "
+"allows multiple values, enter one value per line."
+msgstr ""
+
+#: rules_forms/rules_forms.rules.inc:171
+msgid "form state"
+msgstr "состояние формы"
+
+#: rules_forms/rules_forms.rules_forms.inc:148
+msgid "Set default value on form element '@element'"
+msgstr ""
+

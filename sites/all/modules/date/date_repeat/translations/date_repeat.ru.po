@@ -1,0 +1,195 @@
+# Russian translation of date (6.x-2.9)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  date/date_repeat/date_repeat.module: n/a
+#  date/date_repeat/date_repeat_form.inc: n/a
+#  date/date_repeat/date_repeat.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (6.x-2.9)\n"
+"POT-Creation-Date: 2013-04-16 13:23-0400\n"
+"PO-Revision-Date: 2010-08-29 11:15-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_repeat/date_repeat.module:216
+msgid "and"
+msgstr "и"
+
+#: date_repeat/date_repeat_form.inc:122
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: date_repeat/date_repeat_form.inc:201
+msgid "Additional"
+msgstr "Дополнительно"
+
+#: date_repeat/date_repeat_form.inc:386,399
+msgid "Delete"
+msgstr "Удалить"
+
+#: date_repeat/date_repeat_form.inc:69
+msgid "Repeat"
+msgstr "Повторение"
+
+#: date_repeat/date_repeat_form.inc:70
+msgid ""
+"Choose a frequency and period to repeat this date. If nothing is "
+"selected, the date will not repeat."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:102
+msgid "Until"
+msgstr "Не ранее"
+
+#: date_repeat/date_repeat_form.inc:103
+msgid "Date to stop repeating this item."
+msgstr ""
+"Дата окончания повторения данного "
+"элемента"
+
+#: date_repeat/date_repeat_form.inc:134,145,156
+msgid "-- Any"
+msgstr "-- Любой"
+
+#: date_repeat/date_repeat_form.inc:143
+msgid "Day of Month"
+msgstr "Число месяца"
+
+#: date_repeat/date_repeat_form.inc:154
+msgid "Day of Week"
+msgstr "День недели"
+
+#: date_repeat/date_repeat_form.inc:168
+msgid "Except"
+msgstr "Кроме"
+
+#: date_repeat/date_repeat_form.inc:169
+msgid "Dates to omit from the list of repeating dates."
+msgstr ""
+"Даты, исключенные из списка "
+"повторяющихся дат."
+
+#: date_repeat/date_repeat.module:56
+msgid "-- Period"
+msgstr "-- Период"
+
+#: date_repeat/date_repeat.module:66
+msgid "-- Frequency"
+msgstr "-- Частота"
+
+#: date_repeat/date_repeat.module:70
+msgid "Every @number"
+msgstr "Каждый @number"
+
+#: date_repeat/date_repeat.info:0
+msgid "Date Repeat API"
+msgstr "API повтора даты"
+
+#: date_repeat/date_repeat.info:0
+msgid ""
+"A Date Repeat API to calculate repeating dates and times from iCal "
+"rules."
+msgstr ""
+
+#: date_repeat/date_repeat.module:189
+msgid "every week"
+msgid_plural "every @count weeks"
+msgstr[0] "каждая @count неделя"
+msgstr[1] "каждые @count недели"
+msgstr[2] "каждые @count[2] недель"
+
+#: date_repeat/date_repeat.module:192
+msgid "every month"
+msgid_plural "every @count months"
+msgstr[0] "каждый месяц"
+msgstr[1] "каждые @count месяца"
+msgstr[2] "каждые @count[2] месяцев"
+
+#: date_repeat/date_repeat.module:195
+msgid "every year"
+msgid_plural "every @count years"
+msgstr[0] "каждый год"
+msgstr[1] "каждые @count года"
+msgstr[2] "каждые @count[2] лет"
+
+#: date_repeat/date_repeat.module:198
+msgid "every day"
+msgid_plural "every @count days"
+msgstr[0] "каждый @count день"
+msgstr[1] "каждые @count дня"
+msgstr[2] "каждые @count[2] дней"
+
+#: date_repeat/date_repeat_form.inc:125
+msgid ""
+"If no advanced options are selected, the date will repeat on the day "
+"of week of the start date for weekly repeats, otherwise on the month "
+"and day of the start date. Use the options below to override that "
+"behavior to select specific months and days to repeat on. Use the "
+"'Except' box to input dates that should be omitted from the results."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:386
+msgid "Current exceptions"
+msgstr "Текущие исключения"
+
+#: date_repeat/date_repeat.module:210
+msgid "!repeats_every_interval on the !date_order !day_of_week"
+msgstr "!repeats_every_interval по !date_order !day_of_week"
+
+#: date_repeat/date_repeat.module:213
+msgid "!repeats_every_interval every !day_of_week"
+msgstr "!repeats_every_interval каждые !day_of_week"
+
+#: date_repeat/date_repeat.module:242
+msgid "!repeats_every_interval until !until_date"
+msgstr "!repeats_every_interval до !until_date"
+
+#: date_repeat/date_repeat.module:249
+msgid "!repeats_every_interval except !except_dates"
+msgstr "!repeats_every_interval исключая !except_dates"
+
+#: date_repeat/date_repeat.module:260
+msgid "!repeats_every_interval where the week start on !day_of_week"
+msgstr ""
+
+#: date_repeat/date_repeat.module:226
+msgid "!repeats_every_interval on the !month_days of !month_names"
+msgstr "!repeats_every_interval по the !month_days !month_names"
+
+#: date_repeat/date_repeat.module:229
+msgid "!repeats_every_interval on !month_names"
+msgstr "!repeats_every_interval по !month_names"
+
+#: date_repeat/date_repeat.module:237
+msgid "!repeats_every_interval !count times"
+msgstr "!repeats_every_interval !count время"
+
+#: date_repeat/date_repeat_form.inc:202
+msgid "Dates to add to the list of repeating dates."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:399
+msgid "Current additions"
+msgstr ""
+
+#: date_repeat/date_repeat.module:256
+msgid "Also includes !additional_dates."
+msgstr ""
+
+#: date_repeat/date_repeat.module:262
+msgid "Repeats !interval !bymonth !byday !count !until !except. !additional"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:233
+msgid "Add more exceptions"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:246
+msgid "Add more additions"
+msgstr ""
+

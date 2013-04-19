@@ -1,0 +1,720 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules_admin/rules_admin.inc: n/a
+#  rules/rules_admin/rules_admin.module: n/a
+#  rules/rules_admin/rules_admin.rule_forms.inc: n/a
+#  rules/rules_admin/rules_admin.sets.inc: n/a
+#  rules/rules_admin/rules_admin.render.inc: n/a
+#  rules/rules_admin/rules_admin.export.inc: n/a
+#  rules/rules_admin/rules_admin.potx.inc: n/a
+#  rules/rules_admin/rules_admin.install: n/a
+#  rules/rules_admin/rules_admin.info: n/a
+#  rules/rules_admin/rules_admin.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2012-02-12 04:08-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules_admin/rules_admin.inc:346
+msgid "Default"
+msgstr "По умолчанию"
+
+#: rules_admin/rules_admin.module:120
+msgid "Settings"
+msgstr "Настройки"
+
+#: rules_admin/rules_admin.rule_forms.inc:165,462,526,591
+msgid "Weight"
+msgstr "Вес"
+
+#: rules_admin/rules_admin.inc:343
+msgid "Custom"
+msgstr "Собственная"
+
+#: rules_admin/rules_admin.sets.inc:15
+msgid "Name"
+msgstr "Имя"
+
+#: rules_admin/rules_admin.module:140
+msgid "Add"
+msgstr "Добавить"
+
+#: rules_admin/rules_admin.sets.inc:213
+msgid "Arguments"
+msgstr "Аргументы"
+
+#: rules_admin/rules_admin.rule_forms.inc:311,351
+msgid "Next"
+msgstr "Далее"
+
+#: rules_admin/rules_admin.module:61,183,215
+msgid "Overview"
+msgstr "Просмотр"
+
+#: rules_admin/rules_admin.render.inc:132
+msgid "Empty"
+msgstr "Пусто"
+
+#: rules_admin/rules_admin.inc:326
+msgid "None"
+msgstr "Нет"
+
+#: rules_admin/rules_admin.rule_forms.inc:19,35
+msgid "Filter"
+msgstr "Фильтр"
+
+#: rules_admin/rules_admin.inc:304
+msgid "clone"
+msgstr "клонировать"
+
+#: rules_admin/rules_admin.inc:288
+msgid "Set"
+msgstr "Установить"
+
+#: rules_admin/rules_admin.inc:335
+msgid "Modified"
+msgstr "Изменено"
+
+#: rules_admin/rules_admin.inc:339
+msgid "Fixed"
+msgstr "Фиксировано"
+
+#: rules_admin/rules_admin.rule_forms.inc:289
+msgid "Select an action to add"
+msgstr "Выберите действие для добавления"
+
+#: rules_admin/rules_admin.rule_forms.inc:329
+msgid "Select the condition to add"
+msgstr "Выберите состояние для добавления"
+
+#: rules_admin/rules_admin.rule_forms.inc:459
+msgid "Editing action %label"
+msgstr "Изменение действия %label"
+
+#: rules_admin/rules_admin.rule_forms.inc:464
+msgid "Adjust the weight to customize the ordering of actions."
+msgstr ""
+"Определите вес, чтобы настроить "
+"порядок выполнения действий."
+
+#: rules_admin/rules_admin.rule_forms.inc:500
+msgid "The action %label has been saved."
+msgstr "Действие %label было сохранено."
+
+#: rules_admin/rules_admin.rule_forms.inc:517
+msgid "Editing condition %label"
+msgstr "Изменение условия %label"
+
+#: rules_admin/rules_admin.rule_forms.inc:520,577
+msgid "Negate"
+msgstr "Обратить"
+
+#: rules_admin/rules_admin.rule_forms.inc:522
+msgid "If checked, the condition returns TRUE, if it evaluates to FALSE."
+msgstr ""
+"Если выбрано, то выражение вернет TRUE, "
+"если было вычислено FALSE."
+
+#: rules_admin/rules_admin.rule_forms.inc:528
+msgid "Adjust the weight to customize the ordering of conditions."
+msgstr ""
+"Определите вес, чтобы настроить "
+"порядок состояний."
+
+#: rules_admin/rules_admin.rule_forms.inc:568
+msgid "The condition %label has been saved."
+msgstr "Состояние %label было сохранено."
+
+#: rules_admin/rules_admin.rule_forms.inc:575
+msgid "Editing condition group %label"
+msgstr "Изменение группы состояний %label"
+
+#: rules_admin/rules_admin.rule_forms.inc:579
+msgid ""
+"If checked, the operation will be negated. E.g. AND would be handled "
+"as NOT AND."
+msgstr ""
+"Если выбрано, операция будет обращена. "
+"Например AND будет обрабатываться как "
+"NOT AND."
+
+#: rules_admin/rules_admin.rule_forms.inc:585
+msgid ""
+"The logical operation of this condition group. E.g. if you select AND, "
+"this condition group will only evaluate to TRUE if all conditions of "
+"this group evaluate to TRUE."
+msgstr ""
+"Логическая операция для данной группы "
+"состояний. Например, если вы выбрали "
+"AND, группа состояний вернет TRUE только в "
+"том случае, если все состояния группы "
+"возвращают TRUE."
+
+#: rules_admin/rules_admin.rule_forms.inc:593
+msgid "Adjust the weight to customize the ordering."
+msgstr ""
+"Определите вес, чтобы настроить "
+"порядок."
+
+#: rules_admin/rules_admin.rule_forms.inc:622
+msgid "The condition group %label has been saved."
+msgstr "Группа состояний %label была сохранена."
+
+#: rules_admin/rules_admin.rule_forms.inc:796
+msgid "Arguments configuration"
+msgstr "Конфигурация аргументов"
+
+#: rules_admin/rules_admin.rule_forms.inc:830
+msgid "Are you sure you want to delete the logical operation %label?"
+msgstr ""
+"Вы уверены, что хотите удалить "
+"логическую операцию %label?"
+
+#: rules_admin/rules_admin.rule_forms.inc:844
+msgid "The logical operation %label has been deleted."
+msgstr "Логическая операция %label была удалена."
+
+#: rules_admin/rules_admin.render.inc:48
+msgid "Add a condition"
+msgstr "Добавить условие"
+
+#: rules_admin/rules_admin.render.inc:49
+msgid "Add an action"
+msgstr "Добавить действие"
+
+#: rules_admin/rules_admin.render.inc:90
+msgid "Indent this condition by adding a logical operation."
+msgstr ""
+"Добавить к условию логическую "
+"операцию."
+
+#: rules_admin/rules_admin.render.inc:92,152
+msgid "NOT"
+msgstr "НЕ"
+
+#: rules_admin/rules_admin.render.inc:153
+msgid "!not%label group"
+msgstr ""
+
+#: rules_admin/rules_admin.render.inc:154
+msgid "Add another condition to this group"
+msgstr ""
+"Добавить другое состояние в данную "
+"группу"
+
+#: rules_admin/rules_admin.render.inc:155
+msgid "Edit this condition group"
+msgstr "Изменить данную группу состояний"
+
+#: rules_admin/rules_admin.export.inc:47
+msgid "Import failed."
+msgstr "Импорт не удался."
+
+#: rules_admin/rules_admin.export.inc:165
+msgid "Copy these data and paste them into the import page, to import."
+msgstr ""
+"Скопируйте эти данные и вставьте их на "
+"странице импорта для импортирования."
+
+#: rules_admin/rules_admin.sets.inc:304,363
+msgid "Data type"
+msgstr "Тип данных"
+
+#: rules_admin/rules_admin.rule_forms.inc:31
+msgid "Filter by category"
+msgstr "Фильтр по категории"
+
+#: rules_admin/rules_admin.module:166
+msgid "Clone rule"
+msgstr "Клонировать правило"
+
+#: rules_admin/rules_admin.rule_forms.inc:25
+msgid "Filter by event"
+msgstr "Фильтр по событию"
+
+#: rules_admin/rules_admin.rule_forms.inc:117
+msgid "Choose an appropriate label for this rule."
+msgstr ""
+"Выберите соответствтующую метку для "
+"правила."
+
+#: rules_admin/rules_admin.rule_forms.inc:160
+msgid ""
+"This rule is active and should be evaluated when the associated event "
+"occurs."
+msgstr ""
+"Данное правило активно и выполняется "
+"при возникновении ассоциированного "
+"события."
+
+#: rules_admin/rules_admin.rule_forms.inc:737
+msgid "The name contains not allowed characters."
+msgstr "Имя содержит недопустимые символы."
+
+#: rules_admin/rules_admin.rule_forms.inc:868
+msgid "Alter the settings for the cloned rule."
+msgstr ""
+"Определите настройки для "
+"клонированного правила."
+
+#: rules_admin/rules_admin.export.inc:164
+msgid "Exported rule configurations"
+msgstr "Экспортированные конфигурации правил"
+
+#: rules_admin/rules_admin.inc:334
+msgid "This rule has been provided by a module, but has been modified."
+msgstr ""
+"Правило предоставлено модулем, но "
+"было изменено."
+
+#: rules_admin/rules_admin.inc:338
+msgid "This rule has been provided by a module and can't be customized."
+msgstr ""
+"Правило предоставлено модулем и не "
+"может быть настроено."
+
+#: rules_admin/rules_admin.inc:342
+msgid "A custom defined rule."
+msgstr "Собственные правила."
+
+#: rules_admin/rules_admin.inc:345
+msgid "This rule has been provided by a module."
+msgstr "Правило предоставлено модулем."
+
+#: rules_admin/rules_admin.rule_forms.inc:111
+msgid "Rule settings"
+msgstr "Настройки правила"
+
+#: rules_admin/rules_admin.rule_forms.inc:142
+msgid "Select to which rule set this rule should belong."
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:149
+msgid "Select the event on which you want to evaluate this rule."
+msgstr ""
+"Выберите событие, по которому должно "
+"срабатывать правило."
+
+#: rules_admin/rules_admin.rule_forms.inc:196
+msgid "Rule elements"
+msgstr "Описание правила"
+
+#: rules_admin/rules_admin.rule_forms.inc:231
+msgid "The rule %label has been updated."
+msgstr "Правило %label было обновлено."
+
+#: rules_admin/rules_admin.module:296
+msgid "administer rules"
+msgstr "управление правилами"
+
+#: rules_admin/rules_admin.module:36
+msgid "Rules administration links."
+msgstr "Управление правилами."
+
+#: rules_admin/rules_admin.module:52
+msgid "Customize your site by configuring rules that are evaluated on events."
+msgstr ""
+"Изменение поведения сайта с помощью "
+"правил, выполняемых при определённых "
+"событиях."
+
+#: rules_admin/rules_admin.module:66,221
+msgid "Add a new rule"
+msgstr "Создать правило"
+
+#: rules_admin/rules_admin.module:175
+msgid "Create and manage rule sets."
+msgstr ""
+"Создание наборов правил и управление "
+"ими."
+
+#: rules_admin/rules_admin.module:96
+msgid "Import / Export"
+msgstr "Импорт/Экспорт"
+
+#: rules_admin/rules_admin.rule_forms.inc:700
+msgid "Variable @label settings"
+msgstr "Настройки переменной @label"
+
+#: rules_admin/rules_admin.rule_forms.inc:734
+msgid ""
+"A variable with this name does already exist. Please choose another "
+"name."
+msgstr ""
+
+#: rules_admin/rules_admin.export.inc:19
+msgid "Configuration to import"
+msgstr "Конфигурация для импорта"
+
+#: rules_admin/rules_admin.export.inc:20
+msgid "Just paste your exported configuration here."
+msgstr ""
+"Просто вставьте сюда вашу "
+"экспортированную конфигурацию"
+
+#: rules_admin/rules_admin.export.inc:41
+msgid "Imported %label."
+msgstr ""
+
+#: rules_admin/rules_admin.export.inc:137
+msgid "Select the %label to export"
+msgstr "Выберите %label для экспорта"
+
+#: rules_admin/rules_admin.export.inc:186
+msgid "Please select the items to export."
+msgstr ""
+"Пожалуйста, выберите пункты для "
+"экспорта."
+
+#: rules_admin/rules_admin.rule_forms.inc:453
+msgid "Customize the label for this action."
+msgstr "Определите метку для этого действия."
+
+#: rules_admin/rules_admin.rule_forms.inc:511
+msgid "Customize the label for this condition."
+msgstr "Название метки для этого условия."
+
+#: rules_admin/rules_admin.rule_forms.inc:978
+msgid "Debug rule evaluation"
+msgstr "Выводить отладочную информацию"
+
+#: rules_admin/rules_admin.rule_forms.inc:980
+msgid ""
+"When activated, debugging information is shown when rules are "
+"evaluated."
+msgstr ""
+"Если выбрано, при выполнении Правил "
+"отображается отладочная информация."
+
+#: rules_admin/rules_admin.rule_forms.inc:984
+msgid "Show fixed rules and rule sets"
+msgstr ""
+"Отображать встроенные правила и "
+"наборы правил"
+
+#: rules_admin/rules_admin.rule_forms.inc:986
+msgid ""
+"When activated, fixed items provided by modules are shown in the admin "
+"center too."
+msgstr ""
+"Если выбрано, в центре управления "
+"помимо пользовательских правил также "
+"будут отображаться встроенные "
+"события, предоставляемые модулями."
+
+#: rules_admin/rules_admin.sets.inc:84
+msgid "Are you sure you want to revert %label?"
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:93
+msgid "%label has been reverted."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:144
+msgid "Rule set settings"
+msgstr "Настройки набора правил"
+
+#: rules_admin/rules_admin.sets.inc:150
+msgid "Choose an appropriate label for this rule set."
+msgstr ""
+"Выберите подходящую метку для этого "
+"набора правил."
+
+#: rules_admin/rules_admin.sets.inc:192
+msgid "The rule set %label has been updated."
+msgstr "Набор правил %label был обновлен."
+
+#: rules_admin/rules_admin.module:22
+msgid ""
+"Rule sets are similar in concept to subroutines and can be invoked by "
+"actions or manually by code or another module."
+msgstr ""
+"Правила подобны вспомогательным "
+"функциям и могут выполнять действия "
+"или вызываться другими модулями."
+
+#: rules_admin/rules_admin.module:25
+msgid ""
+"This is an overview about rules that are triggered by a certain event. "
+"A rule may contain conditions and actions, which are executed only "
+"when the conditions are met."
+msgstr ""
+"Это сводная таблица всех правил. "
+"Каждое правило может содержать список "
+"условий и действий, которые "
+"выполняются только при выполнении "
+"всех условий."
+
+#: rules_admin/rules_admin.rule_forms.inc:66
+msgid ""
+"If you install the token module from !href, token replacements will be "
+"supported. <a href=\"@hide\">Hide this message.</a>"
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:990
+msgid "Ignore missing token module"
+msgstr "Игнорировать отсутствие модуля token"
+
+#: rules_admin/rules_admin.rule_forms.inc:992
+msgid ""
+"Rules can use the token module to provide token replacements; if this "
+"module is not present rules will complain, unless this setting is "
+"checked."
+msgstr ""
+"Правила могут задействовать маркеры, "
+"предоставляемые модулем token. Если этот "
+"модуль отсутствует в системе и данная "
+"опция не задейстована, Правила будут "
+"выдывать предупреждения."
+
+#: rules_admin/rules_admin.export.inc:108
+msgid "Successfully imported the workflow-ng rule %label."
+msgstr ""
+
+#: rules_admin/rules_admin.export.inc:111
+msgid "Failed importing the workflow-ng rule %label."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:230
+msgid "More arguments"
+msgstr "Дополнительные аргументы"
+
+#: rules_admin/rules_admin.sets.inc:231
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more "
+"arguments."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:261
+msgid "The name may contain only digits, numbers and underscores."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:257
+msgid "All fields of an argument are required."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:275
+msgid "Each name may be used only once."
+msgstr ""
+
+#: rules_admin/rules_admin.sets.inc:400
+msgid "The rule set %label has been added."
+msgstr "Набор правил %label был добавлен."
+
+#: rules_admin/rules_admin.module:188
+msgid "Add a new rule set"
+msgstr "Добавить новый набор правил"
+
+#: rules_admin/rules_admin.sets.inc:41
+msgid "There are no rule sets."
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:298
+msgid ""
+"The following actions aren't available in this context because they "
+"require arguments that don't exist in your rule. If you want to use "
+"any of these actions, you must first add some action that adds "
+"variables of this kind, or have an event that passes the required "
+"variables."
+msgstr ""
+"Следующие действия не доступны в "
+"данном контексте, т.к. требуют "
+"аргументов не существующих в этом "
+"правиле. Если вы желаете использовать "
+"эти действия, то сначала необходимо "
+"добавить некоторое действие которое "
+"добавит переменные этого действия или "
+"создать состояние передающее "
+"требуемые переменные."
+
+#: rules_admin/rules_admin.rule_forms.inc:338
+msgid ""
+"The following conditions aren't available in this context because they "
+"require arguments that don't exist in your rule. If you want to use "
+"any of these conditions, you must first add some action that adds "
+"variables of this kind in a previous rule, or have an event that "
+"passes the required variables."
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:930
+msgid "@group module"
+msgstr "Модуль @group"
+
+#: rules_admin/rules_admin.rule_forms.inc:297
+msgid "1 action is not configurable"
+msgid_plural "@count actions are not configurable"
+msgstr[0] "1 действие не настраивается"
+msgstr[1] "@count действий не настраивается"
+msgstr[2] ""
+
+#: rules_admin/rules_admin.rule_forms.inc:337
+msgid "1 condition is not configurable"
+msgid_plural "@count conditions are not configurable"
+msgstr[0] "1 условие не настраивается"
+msgstr[1] "@count условий не настраиваются"
+msgstr[2] ""
+
+#: rules_admin/rules_admin.rule_forms.inc:934
+msgid "Unavailable argument: @arguments"
+msgid_plural "Unavailable arguments: @arguments"
+msgstr[0] "Надоступный аргумент: @arguments"
+msgstr[1] "Недоступные аргументы: @arguments"
+msgstr[2] ""
+
+#: rules_admin/rules_admin.rule_forms.inc:98
+msgid ""
+"The rule %label has been added. You can start adding some conditions "
+"or actions now."
+msgstr ""
+"Правило %label было добавлено. Теперь вы "
+"можете начать добавление условий или "
+"действий."
+
+#: rules_admin/rules_admin.rule_forms.inc:156
+msgid ""
+"A comma-separated list of terms describing this rule. Example: funny, "
+"bungee jumping."
+msgstr ""
+"Описывающие правило теги, записанные "
+"через запятую. Пример: веселье, прыжок "
+"с тарзанкой."
+
+#: rules_admin/rules_admin.potx.inc:11
+msgid "Editing rule @label"
+msgstr "Редактирование правила \"@label\""
+
+#: rules_admin/rules_admin.rule_forms.inc:167
+msgid "Adjust the weight to customize the evaluation order of rules."
+msgstr ""
+"Установите вес для определения "
+"очередности правил."
+
+#: rules_admin/rules_admin.rule_forms.inc:191
+msgid ""
+"<em>Warning</em>: This rule has been provided by another module. <br "
+"/>Be aware that any changes made through this interface might be "
+"overwritten once the providing module updates the rule."
+msgstr ""
+
+#: rules_admin/rules_admin.install:28
+msgid "Example rule: When viewing an unpublished page, publish it."
+msgstr ""
+
+#: rules_admin/rules_admin.install:36
+msgid "Viewed content is published"
+msgstr ""
+"Просматриваемое содержимое "
+"опубликовано"
+
+#: rules_admin/rules_admin.install:42
+msgid "Viewed content is Page"
+msgstr ""
+"Просматриваемое содержимое это "
+"Страница"
+
+#: rules_admin/rules_admin.install:48
+msgid "Publish viewed content"
+msgstr ""
+
+#: rules_admin/rules_admin.install:58
+msgid "Example: Empty rule set working with content"
+msgstr ""
+
+#: rules_admin/rules_admin.info:0
+msgid "Rules Administration UI"
+msgstr ""
+
+#: rules_admin/rules_admin.info:0
+msgid "Provides the administration UI for rules."
+msgstr ""
+"Предоставляет интерфейс управления "
+"правилами."
+
+#: rules_admin/rules_admin.export.inc:144
+msgid "There are no %label to be exported."
+msgstr ""
+
+#: rules_admin/rules_admin.export.inc:152
+msgid "Export by category"
+msgstr "Экспорт по категории"
+
+#: rules_admin/rules_admin.sets.inc:170
+msgid ""
+"A comma-separated list of terms describing this rule set. Example: "
+"funny, bungee jumping."
+msgstr ""
+"Разделенный запятыми список терминов, "
+"описывающих этот набор правил. "
+"Например: публикация, удаление."
+
+#: rules_admin/rules_admin.render.inc:23
+msgid "ON event %event"
+msgstr "ПРИ срабатывании события %event"
+
+#: rules_admin/rules_admin.render.inc:29
+msgid "IN rule set %ruleset"
+msgstr "В набор правил %ruleset"
+
+#: rules_admin/rules_admin.render.inc:34
+msgid "IF"
+msgstr "ЕСЛИ"
+
+#: rules_admin/rules_admin.render.inc:42
+msgid "DO"
+msgstr "ВЫПОЛНИТЬ"
+
+#: rules_admin/rules_admin.sets.inc:219
+msgid ""
+"You may specify some arguments, which have to be passed to the rule "
+"set when it is invoked. For each argument you have to specify a "
+"certain data type, a label and a unique machine readable name "
+"containing only alphanumeric characters, and underscores."
+msgstr ""
+"Вам нужно определить аргументы, "
+"которые будут передаваться набору "
+"правил для выполнения. Для каждого "
+"аргумента необходимо указать метку, "
+"точный тип данных и уникальное "
+"машинное имя состоящее только из букв "
+"алфавита и подчеркиваний."
+
+#: rules_admin/rules_admin.module:97
+msgid "Export your rules as text or import rules."
+msgstr ""
+"Экспорт либо Импорт правил в виде "
+"текста."
+
+#: rules_admin/rules_admin.module:121
+msgid "Set display options, show/hide Rules messages."
+msgstr ""
+"Настройки отображения, вывода "
+"сообщений Правил."
+
+#: rules_admin/rules_admin.js:0
+msgid "Machine name:"
+msgstr ""
+
+#: rules_admin/rules_admin.potx.inc:14
+msgid ""
+"%set can't be found. Probably the providing module has been "
+"deactivated."
+msgstr ""
+
+#: rules_admin/rules_admin.module:268
+msgid ""
+"Machine name must be alphanumeric and underscores only, and the first "
+"character must be a lower case letter."
+msgstr ""
+
+#: rules_admin/rules_admin.module:276
+msgid "The given machine name already exists."
+msgstr ""
+

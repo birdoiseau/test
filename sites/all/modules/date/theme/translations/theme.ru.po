@@ -1,0 +1,67 @@
+# Russian translation of date (6.x-2.9)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from file: date/theme/theme.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (6.x-2.9)\n"
+"POT-Creation-Date: 2013-04-16 13:23-0400\n"
+"PO-Revision-Date: 2010-08-04 22:35-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: theme/theme.inc:123
+msgid "Week of @date"
+msgstr "Неделя @date"
+
+#: theme/theme.inc:411
+msgid "ongoing"
+msgstr "непрерывный"
+
+#: theme/theme.inc:374
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: theme/theme.inc:406
+msgid "!time from now"
+msgstr "!time от текущего момента"
+
+#: theme/theme.inc:68
+msgid "Navigate to previous year"
+msgstr "Перейти к предыдущему году"
+
+#: theme/theme.inc:69
+msgid "Navigate to next year"
+msgstr "Перейти к следующему году"
+
+#: theme/theme.inc:72
+msgid "Navigate to previous month"
+msgstr "Перейти к предыдущему месяцу"
+
+#: theme/theme.inc:73
+msgid "Navigate to next month"
+msgstr "Перейти к следующему месяцу"
+
+#: theme/theme.inc:76
+msgid "Navigate to previous week"
+msgstr "Перейти к предыдущей неделе"
+
+#: theme/theme.inc:77
+msgid "Navigate to next week"
+msgstr "Перейти к следующей неделе"
+
+#: theme/theme.inc:80
+msgid "Navigate to previous day"
+msgstr "К предыдущему дню"
+
+#: theme/theme.inc:81
+msgid "Navigate to next day"
+msgstr "К следующему дню"
+
+#: theme/theme.inc:129
+msgid "View full page month"
+msgstr "Посмотреть полную страницу месяца"
+

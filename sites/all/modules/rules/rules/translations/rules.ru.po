@@ -1,0 +1,175 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules/rules.module: n/a
+#  rules/rules/rules.variables.inc: n/a
+#  rules/rules/rules.install: n/a
+#  rules/rules/rules.info: n/a
+#  rules/rules/rules.potx.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2010-08-28 07:55-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules/rules.module:531
+msgid "OR"
+msgstr "ИЛИ"
+
+#: rules/rules.variables.inc:354
+msgid "Saved variable @name of type @type."
+msgstr ""
+
+#: rules/rules.variables.inc:360
+msgid "Failed saving variable @name of type @type."
+msgstr ""
+
+#: rules/rules.module:879
+msgid "Rule Sets"
+msgstr "Наборы правил"
+
+#: rules/rules.module:909
+msgid "Show rule configuration"
+msgstr ""
+
+#: rules/rules.install:49
+msgid "The name of the item."
+msgstr ""
+
+#: rules/rules.install:64
+msgid "Cache table for the rules engine to store configured items."
+msgstr ""
+
+#: rules/rules.info:0
+msgid ""
+"Lets you define conditionally executed actions based on occurring "
+"events."
+msgstr ""
+"Позволяет создавать действия, "
+"осуществляемые при определённых "
+"условиях."
+
+#: rules/rules.module:587
+msgid "unlabelled"
+msgstr ""
+
+#: rules/rules.install:87
+msgid "Successfully imported rule %label."
+msgstr ""
+
+#: rules/rules.install:92
+msgid "Failed importing the rule %label."
+msgstr "Ошибка импортирования правила %label."
+
+#: rules/rules.install:242
+msgid "No upgrade information for the element %name found. Aborting."
+msgstr ""
+
+#: rules/rules.install:163
+msgid "The now separated rules administration UI module has been enabled."
+msgstr ""
+
+#: rules/rules.module:970
+msgid "Included @module.rules.inc files."
+msgstr ""
+
+#: rules/rules.variables.inc:59
+msgid "Warning: Unable to get variable \"@name\"."
+msgstr ""
+
+#: rules/rules.variables.inc:98
+msgid "Warning: Unable to get argument \"@name\"."
+msgstr ""
+
+#: rules/rules.variables.inc:157
+msgid ""
+"Element \"@name\" has not been executed. There are not all execution "
+"arguments needed by an input evaluator available."
+msgstr ""
+
+#: rules/rules.variables.inc:172
+msgid ""
+"Element \"@name\" has not been executed. There are not all execution "
+"arguments available."
+msgstr ""
+
+#: rules/rules.variables.inc:202
+msgid "Successfully added the new variable \"@arg\""
+msgstr ""
+
+#: rules/rules.variables.inc:205
+msgid "Unknown variable name \"@var\" return by action \"@name\"."
+msgstr ""
+
+#: rules/rules.variables.inc:318
+msgid "Loaded variable \"@arg\""
+msgstr ""
+
+#: rules/rules.module:297
+msgid "\"@label\" has been invoked."
+msgstr ""
+
+#: rules/rules.module:308
+msgid "Evaluation of \"@label\" has been finished."
+msgstr ""
+
+#: rules/rules.module:406
+msgid ""
+"Not executing the rule \"@name\" on rule set \"@set\" to prevent "
+"recursion."
+msgstr ""
+
+#: rules/rules.module:411
+msgid "Executing the rule \"@name\" on rule set \"@set\""
+msgstr ""
+"Выполнение правила \"@name\" из набора "
+"правил \"@set\""
+
+#: rules/rules.module:462
+msgid "Action execution: \"@name\""
+msgstr ""
+
+#: rules/rules.module:487
+msgid "Condition \"@name\" evaluated to @bool."
+msgstr ""
+
+#: rules/rules.module:893
+msgid ""
+"Unable to find \"@type\" of name \"@name\" with the label \"@label\". "
+"Perhaps the according module has been deactivated."
+msgstr ""
+
+#: rules/rules.module:896
+msgid ""
+"Unable to find \"@type\" of name \"@name\". Perhaps the according "
+"module has been deactivated."
+msgstr ""
+
+#: rules/rules.potx.inc:11
+msgid ""
+"An error occured during rule evaluation. It follows the evaluation "
+"log: !log"
+msgstr ""
+
+#: rules/rules.module:1095
+msgid "Rule configurations by category"
+msgstr ""
+
+#: rules/rules.module:1047
+msgid "The sanitized string."
+msgstr ""
+
+#: rules/rules.module:1048
+msgid "The string, WARNING - raw user input"
+msgstr ""
+
+#: rules/rules.module:1051
+msgid "The number."
+msgstr ""
+

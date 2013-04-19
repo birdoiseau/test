@@ -1,0 +1,1297 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules/modules/path.rules_forms.inc: n/a
+#  rules/rules/modules/node.rules.inc: n/a
+#  rules/rules/modules/system.rules_forms.inc: n/a
+#  rules/rules/modules/rules.rules.inc: n/a
+#  rules/rules/modules/php.rules_forms.inc: n/a
+#  rules/rules/modules/rules.rules_forms.inc: n/a
+#  rules/rules/modules/node.rules_forms.inc: n/a
+#  rules/rules/modules/system.rules.inc: n/a
+#  rules/rules/modules/taxonomy.rules_forms.inc: n/a
+#  rules/rules/modules/taxonomy.rules.inc: n/a
+#  rules/rules/modules/comment.rules.inc: n/a
+#  rules/rules/modules/user.rules_forms.inc: n/a
+#  rules/rules/modules/user.rules.inc: n/a
+#  rules/rules/modules/path.rules.inc: n/a
+#  rules/rules/modules/php.rules.inc: n/a
+#  rules/rules/modules/comment.rules_forms.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2012-06-01 05:01-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules/modules/path.rules_forms.inc:25,47,85
+msgid "Language"
+msgstr "Язык"
+
+#: rules/modules/node.rules.inc:200,210
+msgid "Title"
+msgstr "Заголовок"
+
+#: rules/modules/system.rules_forms.inc:64
+msgid "Subject"
+msgstr "Заголовок"
+
+#: rules/modules/rules.rules.inc:434
+msgid "Comment"
+msgstr "Комментарий"
+
+#: rules/modules/php.rules_forms.inc:32
+msgid "Yes"
+msgstr "Да"
+
+#: rules/modules/php.rules_forms.inc:35
+msgid "No"
+msgstr "Нет"
+
+#: rules/modules/rules.rules_forms.inc:35
+msgid "Greater than"
+msgstr "Больше чем"
+
+#: rules/modules/rules.rules_forms.inc:35
+msgid "Less than"
+msgstr "Меньше чем"
+
+#: rules/modules/php.rules_forms.inc:17
+msgid "Type"
+msgstr "Тип"
+
+#: rules/modules/node.rules_forms.inc:17
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: rules/modules/system.rules.inc:88
+msgid "Home"
+msgstr "Главная"
+
+#: rules/modules/node.rules.inc:324
+msgid "@type: deleted %title."
+msgstr "@type: удален %title."
+
+#: rules/modules/path.rules_forms.inc:15,68
+msgid "Existing system path"
+msgstr "Существующий системный путь"
+
+#: rules/modules/path.rules_forms.inc:71
+msgid ""
+"Specify the existing path you wish to alias. For example: node/28, "
+"forum/1, taxonomy/term/1+2."
+msgstr ""
+"Укажите существующий путь, для "
+"которого вы создаёте синоним. "
+"Например: node/28, forum/1, taxonomy/term/1+2."
+
+#: rules/modules/path.rules_forms.inc:118
+msgid "create url aliases"
+msgstr "создание синонимов адресов страниц"
+
+#: rules/modules/path.rules_forms.inc:118
+msgid "administer url aliases"
+msgstr ""
+"управление синонимами адресов "
+"страниц"
+
+#: rules/modules/rules.rules.inc:31
+msgid "date"
+msgstr "дата"
+
+#: rules/modules/taxonomy.rules_forms.inc:38
+msgid "Continue"
+msgstr "Продолжить"
+
+#: rules/modules/php.rules_forms.inc:17
+msgid "Variable"
+msgstr "Переменная"
+
+#: rules/modules/taxonomy.rules.inc:69,87,99,114,128
+msgid "Taxonomy term"
+msgstr "Термин таксономии"
+
+#: rules/modules/taxonomy.rules_forms.inc:92
+msgid "Term name"
+msgstr "Название термина"
+
+#: rules/modules/taxonomy.rules_forms.inc:95
+msgid "The name of this term."
+msgstr "Название данного термина."
+
+#: rules/modules/system.rules_forms.inc:169
+msgid "Severity"
+msgstr "Важность"
+
+#: rules/modules/rules.rules.inc:24
+msgid "number"
+msgstr "число"
+
+#: rules/modules/system.rules_forms.inc:37
+msgid "Titles"
+msgstr "Заголовки"
+
+#: rules/modules/system.rules_forms.inc:39
+msgid "A list of titles for the breadcrumb links, one on each line."
+msgstr ""
+"Список заголовков для ссылок "
+"навигационной линейки. Один заголовок "
+"на строку."
+
+#: rules/modules/system.rules_forms.inc:44
+msgid "Paths"
+msgstr "Пути"
+
+#: rules/modules/system.rules_forms.inc:46
+msgid "A list of Drupal paths for the breadcrumb links, one on each line."
+msgstr ""
+"Список путей для каждой ссылки "
+"навигационной панели, один путь на "
+"линию."
+
+#: rules/modules/system.rules_forms.inc:58
+msgid "Sender"
+msgstr "Отправитель"
+
+#: rules/modules/taxonomy.rules_forms.inc:24
+msgid "Vocabulary"
+msgstr "Словарь"
+
+#: rules/modules/comment.rules.inc:17
+msgid "After saving a new comment"
+msgstr "После сохранения нового комментария"
+
+#: rules/modules/comment.rules.inc:22
+msgid "After saving an updated comment"
+msgstr ""
+"После сохранения или обновления "
+"комментария"
+
+#: rules/modules/comment.rules.inc:27
+msgid "After deleting a comment"
+msgstr "После удаления комментария"
+
+#: rules/modules/path.rules_forms.inc:37,76
+msgid "Path alias"
+msgstr "Синоним"
+
+#: rules/modules/user.rules_forms.inc:19
+msgid "all"
+msgstr "все"
+
+#: rules/modules/user.rules.inc:265
+msgid "user"
+msgstr "пользователь"
+
+#: rules/modules/comment.rules.inc:147
+msgid "comment"
+msgstr "комментарий"
+
+#: rules/modules/node.rules_forms.inc:30
+msgid "or"
+msgstr "или"
+
+#: rules/modules/taxonomy.rules_forms.inc:103
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and "
+"RSS feeds."
+msgstr ""
+"Описание термина. Оно будет показано "
+"на страницах таксономии или термина, а "
+"также RSS."
+
+#: rules/modules/taxonomy.rules_forms.inc:74
+msgid "- None selected -"
+msgstr "- Ничего не выбрано -"
+
+#: rules/modules/comment.rules.inc:60
+msgid "author"
+msgstr "автор"
+
+#: rules/modules/node.rules.inc:69
+msgid "unchanged content"
+msgstr "неизмененное содержимое"
+
+#: rules/modules/node.rules.inc:34,42
+msgid "content author"
+msgstr "автор содержимого"
+
+#: rules/modules/node.rules.inc:74
+msgid "unchanged content's author"
+msgstr "неизмененный автор содержимого"
+
+#: rules/modules/user.rules.inc:60
+msgid "acting user"
+msgstr "действующий пользователь"
+
+#: rules/modules/user.rules.inc:25
+msgid "unchanged user"
+msgstr "неизмененный пользователь"
+
+#: rules/modules/comment.rules.inc:65
+msgid "commented content"
+msgstr ""
+
+#: rules/modules/comment.rules.inc:70
+msgid "commented content author"
+msgstr ""
+
+#: rules/modules/node.rules.inc:18
+msgid "created content"
+msgstr "созданное содержимое"
+
+#: rules/modules/node.rules.inc:18,23,28
+msgid "content's author"
+msgstr "автор содержимого"
+
+#: rules/modules/node.rules.inc:23
+msgid "updated content"
+msgstr "обновленное содержимое"
+
+#: rules/modules/node.rules.inc:26
+msgid "Content is going to be saved"
+msgstr "Перед сохранением содержимого"
+
+#: rules/modules/node.rules.inc:31
+msgid "Content is going to be viewed"
+msgstr "Перед просмотром контента"
+
+#: rules/modules/node.rules.inc:34
+msgid "viewed content"
+msgstr "просмотренное содержимое"
+
+#: rules/modules/node.rules.inc:42
+msgid "deleted content"
+msgstr "удаленное содержимое"
+
+#: rules/modules/node.rules.inc:115
+msgid "Content has type"
+msgstr "Содержимое имеет тип"
+
+#: rules/modules/node.rules.inc:116
+msgid ""
+"Evaluates to TRUE, if the given content has one of the selected "
+"content types."
+msgstr ""
+"Возвращает TRUE, если данное содержимое "
+"имеет один из выбранных типов "
+"содержимого."
+
+#: rules/modules/node.rules.inc:175
+msgid "Set the content author"
+msgstr "Установить автора содержимого"
+
+#: rules/modules/system.rules.inc:17
+msgid "User is going to view a page"
+msgstr ""
+"Перед просмотром страницы "
+"пользователем"
+
+#: rules/modules/rules.rules.inc:142
+msgid "Textual comparison"
+msgstr "Сравнить строки"
+
+#: rules/modules/rules.rules.inc:151
+msgid "Numeric comparison"
+msgstr "Сравнить числа"
+
+#: rules/modules/rules.rules_forms.inc:35
+msgid "Equal to"
+msgstr "Равно"
+
+#: rules/modules/system.rules.inc:46
+msgid "Send a mail to a user"
+msgstr "Послать письмо пользователю"
+
+#: rules/modules/system.rules.inc:54
+msgid "Send a mail to an arbitrary mail address"
+msgstr ""
+
+#: rules/modules/system.rules.inc:36
+msgid "Show a configurable message on the site"
+msgstr ""
+"Отобразить настраиваемое сообщение "
+"сайта"
+
+#: rules/modules/system.rules.inc:64
+msgid "Page redirect"
+msgstr "Переадресация страницы"
+
+#: rules/modules/system.rules.inc:70
+msgid "Log to watchdog"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:21
+msgid "The message that should be displayed."
+msgstr ""
+"Сообщение, которое не следует "
+"отображать."
+
+#: rules/modules/system.rules_forms.inc:25
+msgid "Display as error message"
+msgstr "Отображать в виде сообщения об ошибке"
+
+#: rules/modules/system.rules_forms.inc:178
+msgid "The category to which this message belongs."
+msgstr ""
+"Категория, к которой принадлежит "
+"сообщение."
+
+#: rules/modules/system.rules_forms.inc:190
+msgid "Link (optional)"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:66
+msgid "The mail's subject."
+msgstr "Тема почтового сообщения."
+
+#: rules/modules/system.rules_forms.inc:72
+msgid "The mail's message body."
+msgstr "Текст почтового сообщения."
+
+#: rules/modules/user.rules.inc:19
+msgid "registered user"
+msgstr "зарегистрированный пользователь"
+
+#: rules/modules/user.rules.inc:24
+msgid "updated user"
+msgstr "обновленный пользователь"
+
+#: rules/modules/user.rules.inc:29
+msgid "User page has been viewed"
+msgstr "Открыта страница пользователя"
+
+#: rules/modules/user.rules.inc:31
+msgid "viewed user"
+msgstr ""
+
+#: rules/modules/user.rules.inc:35
+msgid "User has been deleted"
+msgstr "Пользователь был удален"
+
+#: rules/modules/user.rules.inc:37
+msgid "deleted user"
+msgstr "удаленный пользователь"
+
+#: rules/modules/user.rules.inc:40
+msgid "User has logged in"
+msgstr "Пользователь авторизовался"
+
+#: rules/modules/user.rules.inc:43
+msgid "logged in user"
+msgstr "Вошедший пользователь"
+
+#: rules/modules/user.rules.inc:47
+msgid "User has logged out"
+msgstr "Пользователь вышел"
+
+#: rules/modules/user.rules.inc:50
+msgid "logged out user"
+msgstr "вышедший пользователь"
+
+#: rules/modules/user.rules.inc:86
+msgid "Compare two users"
+msgstr "Сравнить двух пользователей"
+
+#: rules/modules/user.rules.inc:95
+msgid "User has role(s)"
+msgstr "Пользователь имеет роль(и)"
+
+#: rules/modules/user.rules.inc:99
+msgid "Whether the user has the selected role(s)."
+msgstr ""
+"Выбор роли(ей) назначенной "
+"пользователю."
+
+#: rules/modules/user.rules_forms.inc:18
+msgid "Match against any or all of the selected roles"
+msgstr ""
+
+#: rules/modules/user.rules_forms.inc:19
+msgid "any"
+msgstr "любой"
+
+#: rules/modules/user.rules_forms.inc:20
+msgid ""
+"If matching against all selected roles the user must have <em>all</em> "
+"the roles checked in the list above."
+msgstr ""
+
+#: rules/modules/user.rules.inc:144
+msgid "Add user role"
+msgstr "Добавить роль пользователя"
+
+#: rules/modules/user.rules.inc:151
+msgid "Remove user role"
+msgstr "Удалиить роль пользователя"
+
+#: rules/modules/user.rules_forms.inc:63
+msgid "Select role(s)"
+msgstr "Выберите роль(и)"
+
+#: rules/modules/node.rules.inc:245
+msgid "Delete content"
+msgstr "Удалить содержимое"
+
+#: rules/modules/php.rules_forms.inc:55,81
+msgid "PHP Code"
+msgstr "PHP-Код"
+
+#: rules/modules/taxonomy.rules_forms.inc:203
+msgid "Taxonomy terms"
+msgstr "Термины таксономии"
+
+#: rules/modules/rules.rules.inc:339
+msgid "post"
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:143
+msgid "Vocabulary settings"
+msgstr "Настройки словаря"
+
+#: rules/modules/path.rules.inc:17
+msgid "Path has alias(es)"
+msgstr "Путь имеет синоним(ы)"
+
+#: rules/modules/path.rules_forms.inc:18
+msgid ""
+"Specify the existing path for which you want to check if an URL alias "
+"exists."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:40
+msgid "Specify the path alias which you want to check if it already exists."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:55
+msgid "Before checking, replace non ascii characters with"
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:59,97
+msgid ""
+"Leave this textfield empty to disable the replacement of non ascii "
+"characters."
+msgstr ""
+
+#: rules/modules/path.rules.inc:50
+msgid "Create or delete an URL alias"
+msgstr "Создание либо удаление синонимов URL"
+
+#: rules/modules/path.rules.inc:55
+msgid "Create or delete a content's URL alias"
+msgstr ""
+"Создание либо удаление синонимов URL "
+"содержимого"
+
+#: rules/modules/path.rules_forms.inc:71
+msgid "Leave it empty to delete URL aliases pointing to the given path alias."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:79
+msgid ""
+"Leave it empty to delete URL aliases pointing to the given system "
+"path."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:93
+msgid "Replace non ascii characters with"
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:103
+msgid ""
+"You have to enter at least eiter an existing system path or a path "
+"alias."
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:149
+msgid ""
+"Force redirecting to the given path, even if a destination parameter "
+"is given"
+msgstr ""
+
+#: rules/modules/php.rules.inc:115,138
+msgid "Execute custom PHP code"
+msgstr "Выполнение PHP-кода"
+
+#: rules/modules/system.rules_forms.inc:102
+msgid ""
+"WARNING: This may cause problems if there are too many users of these "
+"roles on your site, as your server may not be able to handle all the "
+"mail requests all at once."
+msgstr ""
+"ВНИМАНИЕ: Это может вызвать проблемы, "
+"если на вашем сайте слишком много "
+"пользователей с данной ролью, так что "
+"ваш сервер не сможет обработать все "
+"почтовые запросы сразу."
+
+#: rules/modules/system.rules_forms.inc:106
+msgid "Select the roles whose users should receive this email."
+msgstr ""
+"Выберите роли, пользователи которых "
+"получат данный e-mail."
+
+#: rules/modules/node.rules.inc:205
+msgid "Add new content"
+msgstr "Добавить новое содержимое"
+
+#: rules/modules/node.rules.inc:225
+msgid "Load content by id"
+msgstr "Загрузить содержимое по id"
+
+#: rules/modules/node.rules.inc:238
+msgid "Loaded content"
+msgstr "Загруженное содержимое"
+
+#: rules/modules/node.rules_forms.inc:83
+msgid "Content type to be used"
+msgstr "Используемый тип содержимого"
+
+#: rules/modules/node.rules.inc:227
+msgid "Content ID"
+msgstr "ID содержимого"
+
+#: rules/modules/node.rules.inc:230
+msgid "Content Revision ID"
+msgstr ""
+
+#: rules/modules/user.rules.inc:160
+msgid "Loaded user"
+msgstr "Загруженный пользователь"
+
+#: rules/modules/taxonomy.rules.inc:81,139,151
+msgid "Taxonomy vocabulary"
+msgstr "Словарь таксономии"
+
+#: rules/modules/rules.rules.inc:17
+msgid "string"
+msgstr "строка"
+
+#: rules/modules/taxonomy.rules_forms.inc:49
+msgid "Select a term"
+msgstr ""
+
+#: rules/modules/node.rules.inc:35
+msgid "Content is displayed as teaser"
+msgstr "Содержимое отображается в виде анонса"
+
+#: rules/modules/node.rules.inc:36
+msgid "Content is displayed as page"
+msgstr ""
+"Содержимое отображается в виде "
+"страницы"
+
+#: rules/modules/system.rules.inc:41
+msgid "Set breadcrumb"
+msgstr "Установить навигационную панель"
+
+#: rules/modules/comment.rules.inc:19
+msgid "created comment"
+msgstr "созданный комментарий"
+
+#: rules/modules/comment.rules.inc:24
+msgid "updated comment"
+msgstr "обновленный комментарий"
+
+#: rules/modules/comment.rules.inc:29
+msgid "deleted comment"
+msgstr "удаленный комментарий"
+
+#: rules/modules/node.rules.inc:217
+msgid "New content"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:232
+msgid "taxonomy term"
+msgstr "Термин таксономии"
+
+#: rules/modules/user.rules.inc:146,153
+msgid "User whose roles should be changed"
+msgstr ""
+"Пользователь, чью роль следует "
+"сменить"
+
+#: rules/modules/user.rules.inc:162
+msgid "Enter an id or a name of the user to load."
+msgstr ""
+"Введите ID либо имя пользователя для "
+"загрузки."
+
+#: rules/modules/user.rules_forms.inc:79
+msgid "Name of the user to be loaded."
+msgstr "Имя пользователя для загрузки."
+
+#: rules/modules/user.rules_forms.inc:83
+msgid "User id"
+msgstr "ID пользователя"
+
+#: rules/modules/user.rules_forms.inc:85
+msgid "Id of the user to be loaded."
+msgstr "ID пользователя для загрузки."
+
+#: rules/modules/user.rules_forms.inc:91
+msgid "You have to enter the user name or the user id."
+msgstr ""
+"Вам необходимо ввести имя или id "
+"пользователя."
+
+#: rules/modules/system.rules.inc:116,163
+msgid "rules"
+msgstr "правила"
+
+#: rules/modules/path.rules.inc:22
+msgid "URL alias exists"
+msgstr "Существует синоним URL"
+
+#: rules/modules/taxonomy.rules_forms.inc:118
+msgid "Select a vocabulary"
+msgstr "Выбор словаря"
+
+#: rules/modules/node.rules_forms.inc:53
+msgid "Set the author of @node to @author"
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:104
+msgid "Content with id @id"
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:86
+msgid ""
+"Select a content type that will be created when this action is "
+"invoked."
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:91
+msgid "Create content only if the given author has access permission to do so"
+msgstr ""
+
+#: rules/modules/system.rules.inc:23
+msgid "Cron maintenance tasks are performed"
+msgstr "Выполняются регулярные задачи CRON"
+
+#: rules/modules/comment.rules.inc:32
+msgid "Comment is being viewed"
+msgstr "После просмотра комментария"
+
+#: rules/modules/comment.rules.inc:34
+msgid "viewed comment"
+msgstr ""
+
+#: rules/modules/comment.rules.inc:37
+msgid "After publishing a comment"
+msgstr "После публикации комментария"
+
+#: rules/modules/comment.rules.inc:39
+msgid "published comment"
+msgstr ""
+
+#: rules/modules/comment.rules.inc:42
+msgid "After unpublishing a comment"
+msgstr "После снятия публикации комментария"
+
+#: rules/modules/comment.rules.inc:44
+msgid "unpublished comment"
+msgstr ""
+
+#: rules/modules/node.rules.inc:16
+msgid "After saving new content"
+msgstr "После сохранения нового контента"
+
+#: rules/modules/node.rules.inc:21
+msgid "After updating existing content"
+msgstr ""
+"После редактирования существующего "
+"элемента"
+
+#: rules/modules/node.rules.inc:28
+msgid "saved content"
+msgstr "сохраненное содержимое"
+
+#: rules/modules/node.rules.inc:40
+msgid "After deleting content"
+msgstr "После удаления контента"
+
+#: rules/modules/node.rules.inc:119
+msgid "Content is published"
+msgstr "Контент опубликован"
+
+#: rules/modules/node.rules.inc:122
+msgid "Content is sticky"
+msgstr "Контент закреплен вверху списков"
+
+#: rules/modules/node.rules.inc:125
+msgid "Content is promoted to frontpage"
+msgstr "Контент размещен на главной странице"
+
+#: rules/modules/node.rules.inc:211
+msgid "The title of the newly created content."
+msgstr ""
+
+#: rules/modules/node.rules.inc:231
+msgid ""
+"If you want to load a specific revision, specify it's revision id. "
+"Else leave it empty to load the current revision."
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:30
+msgid "@node is @type"
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:34
+msgid "@node is published"
+msgstr "@node опубликовано"
+
+#: rules/modules/node.rules_forms.inc:38
+msgid "@node is sticky"
+msgstr ""
+"Материал \"@node\" закреплен вверху "
+"списков"
+
+#: rules/modules/node.rules_forms.inc:42
+msgid "@node is promoted to frontpage"
+msgstr "Материал \"@node\" помещен на главную"
+
+#: rules/modules/node.rules_forms.inc:97
+msgid "New content of type @type"
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:114
+msgid "Create or delete @node's URL alias"
+msgstr ""
+
+#: rules/modules/php.rules.inc:18
+msgid "PHP Evaluation"
+msgstr ""
+
+#: rules/modules/php.rules.inc:67
+msgid ""
+"PHP is not evaluated as there are not all necessary variables "
+"available."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:15
+msgid ""
+"PHP code inside of &lt;?php ?&gt; delimiters will be evaluated and "
+"replaced by its output. E.g. &lt;? echo 1+1?&gt; will be replaced by "
+"2."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:16
+msgid "Furthermore you can make use of the following variables:"
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:20
+msgid "Intelligent saving"
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:43
+msgid "Note that variables are passed by reference, so you can change them."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:57,83
+msgid ""
+"The code that should be executed. Don't include &lt;?php ?&gt; "
+"delimiters."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:83
+msgid "Be sure to always return a boolean value, e.g.: !code"
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:95
+msgid "The code has to always return a boolean value."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:162
+msgid "Truth value"
+msgstr "Верное значение"
+
+#: rules/modules/rules.rules.inc:91
+msgid ""
+"You may also enter a timestamp in GMT. E.g. use !code together with "
+"the PHP input evalutor to specify a date one day after the evaluation "
+"time. "
+msgstr ""
+
+#: rules/modules/rules.rules.inc:111
+msgid "The argument %label is no valid date."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:125
+msgid "Just enter 1 for TRUE, 0 for FALSE or make use of an input evaluator."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:144
+msgid "Text 1"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:145
+msgid "Text 2"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:153
+msgid "Number 1"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:154
+msgid "Number 2"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:160
+msgid "Check a truth value"
+msgstr "Проверить логическое выражение"
+
+#: rules/modules/rules.rules.inc:230
+msgid "Add a new @type variable"
+msgstr "Добавить новую переменную типа @type"
+
+#: rules/modules/rules.rules.inc:238
+msgid "Added @type"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:381
+msgid "Permanently apply changes"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:382
+msgid "If checked, changes to the argument are saved automatically."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:15
+msgid "Two texts to compare"
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:19
+msgid "Evaluate the second text as a regular expression."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:38
+msgid "truth value"
+msgstr "логическое значение"
+
+#: rules/modules/rules.rules_forms.inc:70
+msgid ""
+"Usually you need not care about saving changes done by actions. "
+"However this action allows you to force saving changes, if no action "
+"does."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:70
+msgid ""
+"Furthermore note that changes are saved intelligently, which means "
+"that changes are saved only once, even if multiple actions request "
+"saving changes."
+msgstr ""
+
+#: rules/modules/system.rules.inc:59
+msgid "Send a mail to all users of a role"
+msgstr ""
+
+#: rules/modules/system.rules.inc:116
+msgid "Successfully sent email to %recipient"
+msgstr ""
+
+#: rules/modules/system.rules.inc:163
+msgid "Successfully sent email to the role(s) %roles."
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:101
+msgid "Recipient roles"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:150
+msgid ""
+"Per default drupal doesn't redirect to the given path, if a "
+"destination parameter is set. Instead it redirects to the given "
+"destination parameter. Most times, the destination parameter is set by "
+"appending it to the URL, e.g. !example_url"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:185
+msgid "The message to log."
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:192
+msgid "A link to associate with the message."
+msgstr ""
+
+#: rules/modules/user.rules.inc:17
+msgid "User account has been created"
+msgstr ""
+"Создана новая учетная запись "
+"пользователя"
+
+#: rules/modules/user.rules.inc:22
+msgid "User account details have been updated"
+msgstr "Изменены данные пользователя"
+
+#: rules/modules/user.rules.inc:88
+msgid "User account 1"
+msgstr ""
+
+#: rules/modules/user.rules.inc:89
+msgid "User account 2"
+msgstr ""
+
+#: rules/modules/user.rules.inc:158
+msgid "Load a user account"
+msgstr ""
+
+#: rules/modules/user.rules.inc:297
+msgid "Block a user"
+msgstr ""
+
+#: rules/modules/user.rules.inc:91
+msgid "Evaluates to TRUE, if both given user accounts are the same."
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:240
+msgid "taxonomy vocabulary"
+msgstr "словарь таксономии"
+
+#: rules/modules/path.rules_forms.inc:79
+msgid ""
+"Specify an alternative path by which this data can be accessed. For "
+"example, type \"about\" when writing an about page. Use a relative "
+"path and do not add a trailing slash or the URL alias will not work."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:118
+msgid ""
+"This action only works if the acting user has %perm1 or %perm2 "
+"permsissions. If this does not suit, use the generic \"Create or "
+"delete an URL alias\" action together with the existing system path "
+"\"node/{ID}\"."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:44
+msgid ""
+"If you want to make the changes permanent, you can let rules "
+"intelligently save the changes when the variable's data type supports "
+"it."
+msgstr ""
+
+#: rules/modules/php.rules_forms.inc:44
+msgid ""
+"To make use of \"intelligent saving\" just return an array of "
+"variables to save, e.g.: !code So variables are saved only once, even "
+"if modified multiple times."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:147
+msgid "TRUE is returned, if both texts are equal."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:156
+msgid "Select greater than, less than or equal to."
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:60
+msgid ""
+"The mail's from address. Leave it empty to use the site-wide "
+"configured address."
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:84
+msgid ""
+"The mail's recipient address. You may separate multiple addresses with "
+"','."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:250
+msgid "Save a @type"
+msgstr "Сохранить @type"
+
+#: rules/modules/taxonomy.rules.inc:65
+msgid "Load a term"
+msgstr "Загрузить термин"
+
+#: rules/modules/taxonomy.rules.inc:73
+msgid ""
+"Loading a taxonomy term will allow you to act on this term, for "
+"example you will be able to assign this term to a content."
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:106
+msgid "Assign a term to content"
+msgstr "Назначить термин материалу"
+
+#: rules/modules/taxonomy.rules.inc:120
+msgid "Remove a term from content"
+msgstr "Удалить термин из материала"
+
+#: rules/modules/taxonomy.rules_forms.inc:26,121
+msgid "Select the vocabulary."
+msgstr "Выберите словарь."
+
+#: rules/modules/taxonomy.rules_forms.inc:56
+msgid "Select by term id"
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:59
+msgid ""
+"Optional: enter the term id (<em>not the term name</em>) that should "
+"be loaded . If this field is used \"Select a term\" field will be "
+"ignored."
+msgstr ""
+
+#: rules/modules/user.rules.inc:170
+msgid "User's E-mail"
+msgstr ""
+
+#: rules/modules/user.rules.inc:173
+msgid "New user"
+msgstr "Новый пользователь"
+
+#: rules/modules/user.rules.inc:174
+msgid "New user's password"
+msgstr ""
+
+#: rules/modules/user.rules.inc:235
+msgid "No appropriate user name. No user has been created."
+msgstr ""
+
+#: rules/modules/user.rules.inc:238
+msgid "The name %name has been denied access. No user has been created."
+msgstr ""
+
+#: rules/modules/user.rules.inc:241
+msgid "User !name already exists. No user has been created."
+msgstr ""
+
+#: rules/modules/user.rules.inc:245
+msgid "No appropriate mail address. No user has been created."
+msgstr ""
+
+#: rules/modules/user.rules.inc:248
+msgid ""
+"The e-mail address %email has been denied access. No user has been "
+"created."
+msgstr ""
+
+#: rules/modules/user.rules.inc:251
+msgid ""
+"The e-mail address %email is already registered. No user has been "
+"created."
+msgstr ""
+
+#: rules/modules/node.rules.inc:197
+msgid "Set content title"
+msgstr "Установить заголовок содержимого"
+
+#: rules/modules/node.rules_forms.inc:74
+msgid "Set @node's title"
+msgstr ""
+
+#: rules/modules/node.rules.inc:178,207
+msgid "User, who is set as author"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:17
+msgid "After saving a new term"
+msgstr "После сохранения нового термина"
+
+#: rules/modules/taxonomy.rules.inc:19
+msgid "created term"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:22
+msgid "After updating a term"
+msgstr "После обновления термина"
+
+#: rules/modules/taxonomy.rules.inc:24
+msgid "updated term"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:43
+msgid "unchanged term"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:135
+msgid "Load a vocabulary"
+msgstr "Загрузить словарь"
+
+#: rules/modules/taxonomy.rules.inc:143
+msgid ""
+"Loading a taxonomy vocabulary will allow you to act on this "
+"vocabulary."
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:147
+msgid "Add a new vocabulary"
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:113
+msgid "Vocabulary selection"
+msgstr ""
+
+#: rules/modules/comment.rules.inc:114
+msgid "Load comment by id"
+msgstr "Загрузить комментарий по id"
+
+#: rules/modules/comment.rules.inc:118
+msgid "Comment id"
+msgstr ""
+
+#: rules/modules/comment.rules.inc:125
+msgid "Loaded comment"
+msgstr ""
+
+#: rules/modules/comment.rules_forms.inc:16
+msgid "Comment with id @id"
+msgstr ""
+
+#: rules/modules/node.rules.inc:183
+msgid "Load the content author"
+msgstr "Загрузить автора материала"
+
+#: rules/modules/node.rules.inc:190
+msgid "Content author"
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:60
+msgid "Load the @node author"
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:67
+msgid "@node author"
+msgstr ""
+
+#: rules/modules/user.rules.inc:167
+msgid "Create a user"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:156
+msgid "Immediately issue the page redirect"
+msgstr ""
+
+#: rules/modules/system.rules_forms.inc:157
+msgid ""
+"Use this with <em>caution</em>! If checked, the path redirect is "
+"issued immediately, so the normal execution flow is interrupted."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:41
+msgid ""
+"Check a <a href=\"http://en.wikipedia.org/wiki/Logical_value\">truth "
+"value</a>, i.e. TRUE or FALSE."
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:26,121
+msgid ""
+"There are no existing vocabularies, you should <a "
+"href=\"@add-url\">add</a> one."
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:50
+msgid ""
+"There are no terms in the vocabulary, you should <a "
+"href=\"@add-url\">add</a> one."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:62
+msgid "Force immediate saving."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:63
+msgid "If enabled, intelligent saving is bypassed to ensure immediate saving."
+msgstr ""
+
+#: rules/modules/rules.rules.inc:45
+msgid "a fixed value"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:278
+msgid "The configured rule set %set doesn't exist any more."
+msgstr ""
+
+#: rules/modules/rules.rules_forms.inc:21
+msgid ""
+"If enabled, the matching pattern will be interpreted as a <a "
+"href=\"@regex-wikipedia\">regex</a>.  Tip: <a href=\"@RegExr\">RegExr: "
+"Online Regular Expression Testing Tool</a> is helpful for learning, "
+"writing, and testing Regular Expressions."
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:50
+msgid ""
+"Select an existing term from vocabulary !vocab or manually enter the "
+"name of the term that should be added or removed from the content."
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:77
+msgid "Add a new term to vocabulary"
+msgstr "Добавить новый термин в словарь"
+
+#: rules/modules/taxonomy.rules.inc:95
+msgid "Delete a term"
+msgstr "Удалить термин"
+
+#: rules/modules/taxonomy.rules_forms.inc:87
+msgid "Term Identification"
+msgstr ""
+
+#: rules/modules/rules.rules.inc:90
+msgid ""
+"Format: %format or other values in GMT known by the PHP !strtotime "
+"function like \"+1 day\". "
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:121
+msgid "Delete @node"
+msgstr ""
+
+#: rules/modules/system.rules.inc:20
+msgid ""
+"Be aware that some actions might initialize the theme system. After "
+"that, it's impossible for any module to change the used theme."
+msgstr ""
+
+#: rules/modules/node.rules.inc:128
+msgid "Content is new"
+msgstr "Новый контент"
+
+#: rules/modules/node.rules.inc:129
+msgid "Evaluates to TRUE, if the given content has not been saved yet."
+msgstr ""
+
+#: rules/modules/node.rules_forms.inc:46
+msgid "@node is new"
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:28
+msgid "Optionally only check for a language specific path alias."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:50
+msgid "Optionally check for a language specific path alias."
+msgstr ""
+
+#: rules/modules/path.rules_forms.inc:88
+msgid "Optionally make the path alias language specific."
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:127
+msgid "Select by vocabulary id"
+msgstr ""
+
+#: rules/modules/taxonomy.rules_forms.inc:130
+msgid ""
+"Optional: Enter the vocabulary id (<em>not the vocabulary name</em>) "
+"that should be loaded. If this field is used, the \"Select a "
+"vocabulary\" field will be ignored."
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:284
+msgid "Content has term"
+msgstr ""
+
+#: rules/modules/taxonomy.rules.inc:285
+msgid "Evaluates to TRUE if the given content has one of the selected terms."
+msgstr ""
+

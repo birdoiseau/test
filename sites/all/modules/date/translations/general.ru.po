@@ -1,0 +1,184 @@
+# Russian translation of date (6.x-2.9)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  date/date_api.admin.inc: n/a
+#  date/date_locale/date_locale.module: n/a
+#  date/date_tools/date_tools.event.inc: n/a
+#  date/date_tools/date_tools.module: n/a
+#  date/date_tools/date_tools.wizard.inc: n/a
+#  date/date_php4/date_php4.module: n/a
+#  date/date_api.info: n/a
+#  date/date/date.info: n/a
+#  date/date_locale/date_locale.info: n/a
+#  date/date_php4/date_php4.info: n/a
+#  date/date_popup/date_popup.info: n/a
+#  date/date_repeat/date_repeat.info: n/a
+#  date/date_timezone/date_timezone.info: n/a
+#  date/date_tools/date_tools.info: n/a
+#  date/date_tools/date_tools.change_type.inc: n/a
+#  date/date_api_sql.inc: n/a
+#  date/date/date_admin.inc: n/a
+#  date/includes/date_api_argument_handler.inc: n/a
+#  date/date/date_elements.inc: n/a
+#  date/includes/date_api_filter_handler.inc: n/a
+#  date/includes/date_api.views.inc: n/a
+#  date/date_popup/date_popup.module: n/a
+#  date/date_api_elements.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: date (6.x-2.9)\n"
+"POT-Creation-Date: 2013-04-16 13:23-0400\n"
+"PO-Revision-Date: 2011-02-28 18:17-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: date_api.admin.inc:152; date_locale/date_locale.module:251
+msgid "Configuration saved."
+msgstr "Настройки сохранены."
+
+#: date_tools/date_tools.event.inc:47,70; date_tools/date_tools.module:64
+msgid "Import"
+msgstr "Импорт"
+
+#: date_api.admin.inc:170,204; date_locale/date_locale.module:213; date_tools/date_tools.module:154
+msgid "Cancel"
+msgstr "Отменить"
+
+#: date_api.admin.inc:169,203; date_tools/date_tools.module:153
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить.."
+
+#: date_tools/date_tools.event.inc:67; date_tools/date_tools.wizard.inc:59,93,99
+msgid "Yes"
+msgstr "Да"
+
+#: date_tools/date_tools.event.inc:67; date_tools/date_tools.wizard.inc:59,93,99
+msgid "No"
+msgstr "Нет"
+
+#: date_api.admin.inc:170,204; date_tools/date_tools.module:154
+msgid "Remove"
+msgstr "Удалить"
+
+#: date_locale/date_locale.module:208; date_php4/date_php4.module:53; date_tools/date_tools.wizard.inc:107
+msgid "Save"
+msgstr "Сохранить"
+
+#: date_api.info:0; date/date.info:0; date_locale/date_locale.info:0; date_php4/date_php4.info:0; date_popup/date_popup.info:0; date_repeat/date_repeat.info:0; date_timezone/date_timezone.info:0; date_tools/date_tools.info:0
+msgid "Date/Time"
+msgstr "Дата/Время"
+
+#: date_tools/date_tools.change_type.inc:46; date_tools/date_tools.module:91
+msgid "Change"
+msgstr "Изменить"
+
+#: date_tools/date_tools.wizard.inc:253; date_tools/date_tools.module:133
+msgid "Calendar"
+msgstr "Календарь"
+
+#: date_api_sql.inc:688; date/date_admin.inc:357; date_tools/date_tools.wizard.inc:80; includes/date_api_argument_handler.inc:86
+msgid "Granularity"
+msgstr "Степень детализации"
+
+#: date/date_admin.inc:276,277,278,279; date/date_elements.inc:320; includes/date_api_filter_handler.inc:283
+msgid "From date"
+msgstr "Дата начала"
+
+#: includes/date_api_argument_handler.inc:122; includes/date_api_filter_handler.inc:160
+msgid "Method"
+msgstr "Метод"
+
+#: date_tools/date_tools.change_type.inc:34; date_tools/date_tools.event.inc:353; date_tools/date_tools.wizard.inc:34
+msgid "Date field"
+msgstr "Поле даты"
+
+#: date/date.info:0; date_tools/date_tools.wizard.inc:22,46,249; includes/date_api.views.inc:129,140
+msgid "Date"
+msgstr "Дата"
+
+#: date_tools/date_tools.wizard.inc:258; includes/date_api_filter_handler.inc:102
+msgid "Text"
+msgstr "Текст"
+
+#: date/date_admin.inc:281,282,283,284; date/date_elements.inc:322; includes/date_api_filter_handler.inc:286
+msgid "To date"
+msgstr "Дата окончания"
+
+#: date/date_admin.inc:71,77; date_popup/date_popup.module:355
+msgid "Now"
+msgstr "Сейчас"
+
+#: date_api.info:0; date_tools/date_tools.wizard.inc:250
+msgid "Date API"
+msgstr "Date API"
+
+#: includes/date_api_argument_handler.inc:124; includes/date_api_filter_handler.inc:162
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/date_api_argument_handler.inc:124; includes/date_api_filter_handler.inc:162
+msgid "AND"
+msgstr "И"
+
+#: date_php4/date_php4.module:28; date_php4/date_php4.info:0
+msgid "Date PHP4"
+msgstr "Date PHP4"
+
+#: date_popup/date_popup.info:0; date_tools/date_tools.wizard.inc:256
+msgid "Date Popup"
+msgstr "Date Popup"
+
+#: date_timezone/date_timezone.info:0; date_tools/date_tools.wizard.inc:251
+msgid "Date Timezone"
+msgstr "Date Timezone"
+
+#: date_api_elements.inc:149; date_popup/date_popup.module:342,383
+msgid "Format: @date"
+msgstr "Формат: @date"
+
+#: includes/date_api_argument_handler.inc:114; includes/date_api_filter_handler.inc:152
+msgid "Date field(s)"
+msgstr "Поле(я) даты"
+
+#: includes/date_api_argument_handler.inc:126; includes/date_api_filter_handler.inc:164
+msgid ""
+"Method of handling multiple date fields in the same query. Return "
+"items that have any matching date field (date = field_1 OR field_2), "
+"or only those with matches in all selected date fields (date = field_1 "
+"AND field_2)."
+msgstr ""
+
+#: includes/date_api_argument_handler.inc:95; includes/date_api_filter_handler.inc:134
+msgid "Date year range"
+msgstr "Диапазон годов даты"
+
+#: date_tools/date_tools.module:36; date_tools/date_tools.info:0
+msgid "Date Tools"
+msgstr "Инструменты даты"
+
+#: date_tools/date_tools.module:37,44; date_tools/date_tools.info:0
+msgid "Tools to import and auto-create dates and calendars."
+msgstr ""
+"Инструменты для импорта и "
+"автоматического создания дат и "
+"календарей."
+
+#: includes/date_api_argument_handler.inc:98; includes/date_api_filter_handler.inc:137
+msgid ""
+"Set the allowable minimum and maximum year range for this argument, "
+"either a -X:+X offset from the current year, like '-3:+3' or an "
+"absolute minimum and maximum year, like '2005:2010'. When the argument "
+"is set to a date outside the range, the page will be returned as 'Page "
+"not found (404)'."
+msgstr ""
+
+#: includes/date_api_argument_handler.inc:141; includes/date_api_filter_handler.inc:174
+msgid ""
+"Date year range must be in the format -9:+9, 2005:2010, -9:2010, or "
+"2005:+9"
+msgstr ""
+

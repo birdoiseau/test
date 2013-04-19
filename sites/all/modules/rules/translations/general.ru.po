@@ -1,0 +1,252 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules_admin/rules_admin.inc: n/a
+#  rules/rules_admin/rules_admin.sets.inc: n/a
+#  rules/rules_admin/rules_admin.export.inc: n/a
+#  rules/rules_admin/rules_admin.module: n/a
+#  rules/rules_admin/rules_admin.rule_forms.inc: n/a
+#  rules/rules/modules/php.rules_forms.inc: n/a
+#  rules/rules/modules/taxonomy.rules_forms.inc: n/a
+#  rules/rules_forms/rules_forms.admin.inc: n/a
+#  rules/rules_scheduler/rules_scheduler.admin.inc: n/a
+#  rules/rules/modules/system.rules_forms.inc: n/a
+#  rules/rules_forms/rules_forms.rules_forms.inc: n/a
+#  rules/rules_forms/rules_forms.rules.inc: n/a
+#  rules/rules/modules/node.rules.inc: n/a
+#  rules/rules/modules/path.rules.inc: n/a
+#  rules/rules/modules/rules.rules.inc: n/a
+#  rules/rules/modules/taxonomy.rules.inc: n/a
+#  rules/rules/modules/user.rules.inc: n/a
+#  rules/rules/modules/rules.rules_forms.inc: n/a
+#  rules/rules/modules/system.rules.inc: n/a
+#  rules/rules/modules/node.rules_forms.inc: n/a
+#  rules/rules_admin/rules_admin.js: n/a
+#  rules/rules/modules/user.rules_forms.inc: n/a
+#  rules/rules/rules.module: n/a
+#  rules/rules/rules.info: n/a
+#  rules/rules_admin/rules_admin.info: n/a
+#  rules/rules_forms/rules_forms.info: n/a
+#  rules/rules_scheduler/rules_scheduler.info: n/a
+#  rules/rules_test/rules_test.info: n/a
+#  rules/rules_admin/rules_admin.render.inc: n/a
+#  rules/rules_scheduler/rules_scheduler.rules.inc: n/a
+#  rules/rules/rules.install: n/a
+#  rules/rules_scheduler/rules_scheduler.install: n/a
+#  rules/rules_scheduler/includes/rules_scheduler.views.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2011-02-28 18:17-0500\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules_admin/rules_admin.inc:299; rules_admin/rules_admin.sets.inc:24
+msgid "delete"
+msgstr "удалить"
+
+#: rules_admin/rules_admin.inc:288; rules_admin/rules_admin.sets.inc:15
+msgid "Operations"
+msgstr "Действия"
+
+#: rules_admin/rules_admin.export.inc:24; rules_admin/rules_admin.module:111
+msgid "Import"
+msgstr "Импорт"
+
+#: rules_admin/rules_admin.export.inc:158; rules_admin/rules_admin.module:106
+msgid "Export"
+msgstr "Экспорт"
+
+#: rules_admin/rules_admin.rule_forms.inc:154; rules_admin/rules_admin.sets.inc:168
+msgid "Categories"
+msgstr "Категории"
+
+#: rules/modules/php.rules_forms.inc:17; rules/modules/taxonomy.rules_forms.inc:101; rules_admin/rules_admin.inc:36
+msgid "Description"
+msgstr "Описание"
+
+#: rules_admin/rules_admin.rule_forms.inc:835; rules_admin/rules_admin.sets.inc:61,86; rules_forms/rules_forms.admin.inc:105; rules_scheduler/rules_scheduler.admin.inc:150
+msgid "Cancel"
+msgstr "Отменить"
+
+#: rules_admin/rules_admin.rule_forms.inc:835; rules_admin/rules_admin.sets.inc:61,86
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя будет отменить.."
+
+#: rules_admin/rules_admin.inc:288; rules_admin/rules_admin.sets.inc:15
+msgid "Status"
+msgstr "Статус"
+
+#: rules/modules/system.rules_forms.inc:176; rules_admin/rules_admin.inc:288; rules_admin/rules_admin.sets.inc:15
+msgid "Category"
+msgstr "Категория"
+
+#: rules/modules/system.rules_forms.inc:127; rules_forms/rules_forms.rules_forms.inc:18
+msgid "To"
+msgstr "Для"
+
+#: rules/modules/system.rules_forms.inc:19,70,183; rules_forms/rules_forms.rules.inc:127
+msgid "Message"
+msgstr "Сообщение"
+
+#: rules/modules/node.rules.inc:110,177,185,199,247; rules/modules/path.rules.inc:57; rules/modules/rules.rules.inc:425; rules/modules/taxonomy.rules.inc:110,124,288
+msgid "Content"
+msgstr "Содержимое"
+
+#: rules_admin/rules_admin.inc:302; rules_admin/rules_admin.sets.inc:27
+msgid "revert"
+msgstr "возврат"
+
+#: rules/modules/rules.rules.inc:443; rules/modules/user.rules.inc:97
+msgid "User"
+msgstr "Пользователь"
+
+#: rules_admin/rules_admin.rule_forms.inc:471,535,599; rules_admin/rules_admin.sets.inc:240
+msgid "Save"
+msgstr "Сохранить"
+
+#: rules_admin/rules_admin.inc:288; rules_admin/rules_admin.rule_forms.inc:115,451,509,707; rules_admin/rules_admin.sets.inc:15,148,295,364
+msgid "Label"
+msgstr "Метка"
+
+#: rules_admin/rules_admin.inc:288; rules_admin/rules_admin.rule_forms.inc:147
+msgid "Event"
+msgstr "Событие"
+
+#: rules/modules/rules.rules_forms.inc:34; rules_admin/rules_admin.rule_forms.inc:583
+msgid "Operation"
+msgstr "Действие"
+
+#: rules/modules/system.rules.inc:48; rules/modules/system.rules_forms.inc:82
+msgid "Recipient"
+msgstr "Получатель"
+
+#: rules/modules/node.rules.inc:350,324; rules/modules/node.rules_forms.inc:112; rules/modules/rules.rules.inc:339
+msgid "content"
+msgstr "содержимое"
+
+#: rules_admin/rules_admin.rule_forms.inc:478,542,606,835; rules_admin/rules_admin.sets.inc:61; rules_admin/rules_admin.module:76,157; rules_scheduler/rules_scheduler.admin.inc:87,150
+msgid "Delete"
+msgstr "Удалить"
+
+#: rules_admin/rules_admin.module:148; rules_admin/rules_admin.js:0
+msgid "Edit"
+msgstr "Редактировать"
+
+#: rules_admin/rules_admin.sets.inc:86; rules_admin/rules_admin.module:85
+msgid "Revert"
+msgstr "Удалить"
+
+#: rules/modules/user.rules.inc:169; rules/modules/user.rules_forms.inc:74
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: rules_admin/rules_admin.rule_forms.inc:170; rules_admin/rules_admin.sets.inc:173
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: rules/rules.module:874; rules/rules.info:0; rules_admin/rules_admin.inc:364; rules_admin/rules_admin.module:35; rules_admin/rules_admin.info:0; rules_forms/rules_forms.info:0; rules_scheduler/rules_scheduler.info:0; rules_test/rules_test.info:0
+msgid "Rules"
+msgstr "Правила"
+
+#: rules/rules.module:532; rules_admin/rules_admin.render.inc:39
+msgid "AND"
+msgstr "И"
+
+#: rules_admin/rules_admin.rule_forms.inc:833; rules_admin/rules_admin.sets.inc:59
+msgid "Are you sure you want to delete %label?"
+msgstr "Вы уверены, что хотите удалить %label?"
+
+#: rules_admin/rules_admin.rule_forms.inc:849; rules_admin/rules_admin.sets.inc:68
+msgid "%label has been deleted."
+msgstr "%label было удалено."
+
+#: rules/modules/node.rules.inc:33; rules/modules/user.rules.inc:32
+msgid ""
+"Note that if drupal's page cache is enabled, this event won't be "
+"generated for pages served from cache."
+msgstr ""
+"Помните, если активирован кэш, событие "
+"не будет применено для страниц "
+"сохраненных в кэше."
+
+#: rules_admin/rules_admin.rule_forms.inc:122; rules_admin/rules_admin.sets.inc:155,365
+msgid "Machine readable name"
+msgstr "Машинное имя"
+
+#: rules_admin/rules_admin.rule_forms.inc:40; rules_admin/rules_admin.sets.inc:125
+msgid "Active rules"
+msgstr "Активные правила"
+
+#: rules_admin/rules_admin.rule_forms.inc:43; rules_admin/rules_admin.sets.inc:128
+msgid "Inactive rules"
+msgstr "Неактивные правила"
+
+#: rules_admin/rules_admin.rule_forms.inc:47; rules_admin/rules_admin.sets.inc:132
+msgid "Fixed rules"
+msgstr "Фиксированные правила"
+
+#: rules_scheduler/rules_scheduler.admin.inc:48; rules_scheduler/rules_scheduler.rules.inc:31,45
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: rules_admin/rules_admin.rule_forms.inc:140; rules_scheduler/rules_scheduler.rules.inc:50
+msgid "Rule set"
+msgstr "Набор правил"
+
+#: rules_admin/rules_admin.export.inc:131; rules_admin/rules_admin.inc:360; rules_admin/rules_admin.module:51
+msgid "Triggered rules"
+msgstr "Запланированные правила"
+
+#: rules_admin/rules_admin.inc:355; rules_admin/rules_admin.module:174
+msgid "Rule sets"
+msgstr "Наборы правил"
+
+#: rules/rules.install:56; rules_scheduler/rules_scheduler.install:53
+msgid "The whole, serialized item configuration."
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:713; rules_admin/rules_admin.sets.inc:310
+msgid "Machine readable variable name"
+msgstr ""
+
+#: rules/modules/system.rules.inc:67; rules_forms/rules_forms.rules.inc:63
+msgid ""
+"Enter a Drupal path, path alias, or external URL to redirect to. Enter "
+"(optional) queries after \"?\" and (optional) anchor after \"#\"."
+msgstr ""
+
+#: rules_admin/rules_admin.rule_forms.inc:124,714; rules_admin/rules_admin.sets.inc:157
+msgid ""
+"Specify a unique name containing only alphanumeric characters, and "
+"underscores."
+msgstr ""
+"Назначьте уникальное имя состоящее "
+"только из букв алфавита и "
+"подчеркиваний."
+
+#: rules_scheduler/rules_scheduler.admin.inc:42,80; rules_scheduler/includes/rules_scheduler.views.inc:55
+msgid "Rule set name"
+msgstr "Имя набора правил"
+
+#: rules_scheduler/rules_scheduler.admin.inc:50; rules_scheduler/rules_scheduler.rules.inc:32
+msgid ""
+"User provided string to identify the task. Existing tasks for this "
+"rule set with the same identifier will be replaced."
+msgstr ""
+"Пользовательское описание "
+"идентифицирующее задачу. "
+"Существующие задачи для этого набора "
+"правил с одинаковыми "
+"идентификаторами будут "
+"взаимозаменены."
+
+#: rules_forms/rules_forms.rules.inc:117; rules_forms/rules_forms.rules_forms.inc:139
+msgid "Set a form error"
+msgstr ""
+

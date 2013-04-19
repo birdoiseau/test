@@ -1,0 +1,198 @@
+<?php
+
+function fc_form(&$form_state, $my_values = array()) {
+  $form = array();
+  
+  $form['name'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Тема сообщения'),
+    '#size' => '25',                                  
+  );
+  
+  $form['email'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Email'),
+    '#size' => '25',                                  
+  );
+  
+  $form['fulltext'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Текст'),                                 
+  );
+  
+  $result = db_query('SELECT nid, title FROM {node} WHERE type="%s"', "sotrudnik");
+  $options[] = t('Выберете сотрудника');
+  while ($row = db_fetch_array($result)) {
+    $options[$row['nid']] = $row['title'];
+  }
+ 
+  if(empty($form_state['values']['sotrhidden'])) $array = array();
+  else $array = explode(',',$form_state['values']['sotrhidden']);
+  
+ $form['sotr'] = array(
+    '#type' => 'select',
+    '#title' => t('Сотрудник'),
+	'#options'=>$options, 
+	'#default_value'=> !empty($form_state['values']['sotr']) ? $form_state['values']['sotr'] : $options[0],            
+  );
+  
+  $form['addmore'] = array(
+    '#type' => 'button',
+    '#value' => t('Добавить'),   
+    '#ahah' => array(
+      'event' => 'click',
+      'path' => 'mymodule/js',
+      'wrapper' => 'fc_form_wrapper',
+   //   'method' => 'append',
+      'effect' => 'fade',
+      'progress' => array('type' => 'throbber'),
+	         
+    ),
+  );
+  $form['groupsotr'] = array(
+		'#type' => 'fieldset',
+		'#title' => t('Добавленные сотрудники'),
+		'#prefix' => '<div id="fc_form_wrapper">',
+    '#suffix' => '</div>',
+	  );
+
+  if(!empty($form_state['values']['sotr'])){
+    if(!in_array($form_state['values']['sotr'], $array, TRUE)) $array[]=$form_state['values']['sotr'];
+  }
+   $form['continue_to_dependent_dropdown'] = array(
+    '#type' => 'submit',
+    '#value' => t('Choose'),
+    '#prefix' => '<div style="display: none;">',
+    '#suffix' => '</div>',
+    '#submit' => array('mymodule_continue'),
+  );
+  
+  for($i=0; $i<count($array); $i++){
+	$sotr=$array[$i];
+	   $node = node_load($sotr);
+	  $form['groupsotr']['lastname'.$sotr] = array(
+		'#type' => 'textfield',
+		'#default_value' =>isset($my_values['lastname'.$sotr]) ? $my_values['lastname'.$sotr] : $node->title,
+		'#size' => '25',                                  
+	  );
+	 
+	  $form['groupsotr']['field_name'.$sotr] = array(
+		'#type' => 'textfield',
+		'#default_value' => isset($my_values['field_name'.$sotr]) ? $my_values['field_name'.$sotr] : $node->field_name['0']['value'],
+		'#size' => '25',                                  
+	  );
+	  $form['groupsotr']['field_otch'.$sotr] = array(
+		'#type' => 'textfield',
+		'#default_value' =>isset($my_values['field_otch'.$sotr]) ? $my_values['field_otch'.$sotr] : $node->field_otch['0']['value'],
+		'#size' => '25',                                  
+	  );
+	  $form['groupsotr']['field_birthdate'.$sotr] = array(
+		'#type' => 'textfield',
+		'#default_value' =>isset($my_values['field_birthdate'.$sotr]) ? $my_values['field_birthdate'.$sotr] : date_format_date(date_make_date($node->field_birthdate['0']['value']), 'medium'),
+		'#size' => '25',                                  
+	  );
+	  
+  }
+  $form['sotrhidden'] = array(
+    '#type' => 'hidden',
+	'#value'=>implode(',',$array),
+  );
+  
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Submit',   
+    '#weight' => 100,
+  );
+  return $form;
+} 
+
+function mymodule_menu() {
+  $items = array();
+ 
+  $items['mymodule'] = array(
+    'title' => 'Заявка',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('fc_form'),
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+    'weight' => 2,
+  );
+   
+  $items['mymodule/js'] = array (
+    'page callback' => 'mymodule_ajax',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK, 
+  );
+  return $items;
+}
+
+function render_fc_form() {
+  $out  = drupal_get_form('fc_form');
+  
+  return $out;
+}
+
+function fc_form_submit($form, &$form_state) {
+	if (!empty($form_state['ahah_submission'])) {
+    return;
+  }
+	$form_state['rebuild'] = TRUE;
+  if ($form_state['clicked_button']['#id'] == 'edit-submit') {
+  }
+  else {
+    // "Add more" button was clicked.
+  }
+}
+
+function fc_form_validate($form_id, &$form_state) { 
+  if ($form_state['clicked_button']['#id'] == 'edit-submit') {
+    $mail = $form_state['values']['email'];
+    if (!valid_email_address($mail)) {
+      form_set_error('email', t('Неправильный формат адреса'));
+    }
+  }
+  else {
+	 // drupal_set_message(var_export($form_state, TRUE));
+	//  print_r($form_state);
+	$temparray = explode(',',$form_state['values']['sotrhidden']);  
+	if(in_array($form_state['values']['sotr'], $temparray)){
+	  form_set_error('sotr', t('Нельзя добавить сотрудника дважды'));
+	}
+  }
+}
+
+function mymodule_ajax() {
+  $form = myahah_render();
+  $updateForm = $form['groupsotr'];
+  unset($updateForm['#prefix'], $updateForm['#suffix']);
+  $output = theme('status_messages');
+  $output .= drupal_render($updateForm);
+  drupal_json(array('status' => TRUE, 'data' => $output));
+  exit();
+}
+
+/**
+* Submit handler for 'continue_to_dependent_dropdown'.
+*/
+function mymodule_continue($form, &$form_state) {
+  $values = $form_state['values'];
+  unset($form_state['submit_handlers']);
+  form_execute_handlers('submit', $form, $form_state);
+  $form_state['my_values'] = $values;
+  $form_state['rebuild'] = TRUE;
+}
+
+function myahah_render() {
+  $form_state = array('storage' => NULL, 'submitted' => FALSE);
+  $form_build_id = $_POST['form_build_id'];
+  $form = form_get_cache($form_build_id, $form_state);
+  $args = $form['#parameters'];
+  $form_id = array_shift($args);
+  $form_state['post'] = $form['#post'] = $_POST;
+  // Enable the submit/validate handlers to determine whether AHAH-submittted.
+  $form_state['ahah_submission'] = TRUE;
+  $form['#programmed'] = $form['#redirect'] = FALSE;
+  drupal_process_form($form_id, $form, $form_state);
+  $form = drupal_rebuild_form($form_id, $form_state, $args, $form_build_id);
+  return $form;
+}

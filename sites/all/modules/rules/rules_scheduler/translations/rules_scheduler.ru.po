@@ -1,0 +1,194 @@
+# Russian translation of rules (6.x-1.5)
+# Copyright (c) 2013 by the Russian translation team
+# Generated from files:
+#  rules/rules_scheduler/rules_scheduler.admin.inc: n/a
+#  rules/rules_scheduler/rules_scheduler.module: n/a
+#  rules/rules_scheduler/rules_scheduler.rules.inc: n/a
+#  rules/rules_scheduler/rules_scheduler.install: n/a
+#  rules/rules_scheduler/rules_scheduler.info: n/a
+#  rules/rules_scheduler/rules_scheduler.rules_forms.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rules (6.x-1.5)\n"
+"POT-Creation-Date: 2013-04-17 12:20-0400\n"
+"PO-Revision-Date: 2010-07-11 23:04-0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: rules_scheduler/rules_scheduler.admin.inc:56
+msgid "Schedule"
+msgstr "Планировщик"
+
+#: rules_scheduler/rules_scheduler.module:40
+msgid "Scheduling"
+msgstr "Планирование"
+
+#: rules_scheduler/rules_scheduler.rules.inc:26
+msgid "Scheduled evaluation date"
+msgstr "Планирование даты выполнения"
+
+#: rules_scheduler/rules_scheduler.module:111
+msgid "Packing arguments for scheduling the rule set %set failed."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:81
+msgid ""
+"The evaluation of the rule set is going to be scheduled by cron. So "
+"make sure you have configured cron correctly by checking your site's "
+"!status."
+msgstr ""
+"Выполнение набора правил будет "
+"выполняться по крону. Чтобы убедиться "
+"что крон настроен правильно проверьте "
+"страницу сайта !status."
+
+#: rules_scheduler/rules_scheduler.rules.inc:81
+msgid ""
+"Also note that the scheduling time accuracy depends on your configured "
+"cron interval."
+msgstr ""
+"Помните, что время планирования "
+"напрямую зависит от конфигурации "
+"интервала запуска крона."
+
+#: rules_scheduler/rules_scheduler.install:29
+msgid "Stores a schedule for rule sets."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.install:42
+msgid "The scheduled rule set's name."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.install:47
+msgid "When the task is to be scheduled."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.info:0
+msgid "Rules Scheduler"
+msgstr "Планировщик Правил"
+
+#: rules_scheduler/rules_scheduler.info:0
+msgid "Schedule the execution of rule sets."
+msgstr ""
+"Выполнение наборов правил по "
+"расписанию."
+
+#: rules_scheduler/rules_scheduler.install:35
+msgid "The scheduled task's id."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:22
+msgid ""
+"To display scheduled tasks you have to install the <a "
+"href=\"http://drupal.org/project/views\">Views</a> module."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:71
+msgid "Delete tasks by rule set name"
+msgstr "Удаление задач по имени набора правил"
+
+#: rules_scheduler/rules_scheduler.admin.inc:135
+msgid "Are you sure you want to delete task %tid?"
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:137
+msgid ""
+"This task refers to the custom identifier %id and rule set %ruleset, "
+"it will be executed on %date. The delete action cannot be undone."
+msgstr ""
+"Эта задача имеет идентификатор %id и "
+"принадлежит набору правил %ruleset, будет "
+"выполнена %date. Операция удаления не "
+"может быть отменена."
+
+#: rules_scheduler/rules_scheduler.admin.inc:144
+msgid ""
+"This task refers to the rule set %ruleset and will be executed on "
+"%date. The delete action cannot be undone."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:158
+msgid "Task %label has been deleted."
+msgstr "Задача %label была удалена."
+
+#: rules_scheduler/rules_scheduler.module:47
+msgid "Delete a scheduled task"
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.install:60,78
+msgid "The user defined string identifying this task."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:46
+msgid ""
+"All tasks that are annotated with this user provided identifier will "
+"be deleted."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:51
+msgid "All tasks that execute this rule set will be deleted."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:107
+msgid ""
+"This action allows you to cancel scheduled tasks that are waiting for "
+"future execution."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:107
+msgid ""
+"They can be addressed by an identifier or by the rule set name, if "
+"both are specified only tasks fulfilling both requirements will be "
+"deleted."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:32
+msgid "Manual scheduling of rule sets without arguments"
+msgstr ""
+"Ручное планирование наборов правил "
+"без аргументов"
+
+#: rules_scheduler/rules_scheduler.admin.inc:38
+msgid "There are currently no rule sets without arguments available."
+msgstr ""
+"На данный момент нет доступных "
+"наборов правил без аргументов."
+
+#: rules_scheduler/rules_scheduler.admin.inc:76
+msgid "There are currently no scheduled tasks available to delete."
+msgstr ""
+"На данный момент нет запланированных "
+"задач доступных для удаления."
+
+#: rules_scheduler/rules_scheduler.admin.inc:122
+msgid "All tasks associated with %ruleset have been deleted."
+msgstr ""
+"Все правила связанные с %ruleset были "
+"удалены."
+
+#: rules_scheduler/rules_scheduler.install:82
+msgid ""
+"Notice: concrete scheduling dates have to be specified in GMT now, so "
+"be aware to add out your local timezone!"
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.admin.inc:113
+msgid "The rule set %name has been scheduled on %date (GMT)."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules_forms.inc:29
+msgid "You have to specify at least one field."
+msgstr ""
+
+#: rules_scheduler/rules_scheduler.rules.inc:22
+msgid "Schedule \"@set\""
+msgstr "Планирование \"@set\""
+
+#: rules_scheduler/rules_scheduler.rules.inc:39
+msgid "Delete scheduled tasks"
+msgstr "Удалить запланированные задачи"
+
