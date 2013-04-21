@@ -1,7 +1,15 @@
 <?php
 
+function mymodule_init() {
+  drupal_add_css(drupal_get_path('module', 'mymodule') .'/my.css');
+}
+
 function fc_form(&$form_state, $my_values = array()) {
   $form = array();
+  
+  if (isset($form_state['storage']['page_two'])) {
+    return fc_form_page_two(&$form_state);
+  }
   
   $form['name'] = array(
     '#type' => 'textfield',
@@ -20,10 +28,10 @@ function fc_form(&$form_state, $my_values = array()) {
     '#title' => t('Текст'),                                 
   );
   
-  $result = db_query('SELECT nid, title FROM {node} WHERE type="%s"', "sotrudnik");
+  $result = db_query('SELECT  n.nid, n.title, s.field_name_value, s.field_otch_value FROM {node} n INNER JOIN {content_type_sotrudnik} s ON n.nid=s.nid WHERE n.type="%s"', "sotrudnik");
   $options[] = t('Выберете сотрудника');
   while ($row = db_fetch_array($result)) {
-    $options[$row['nid']] = $row['title'];
+    $options[$row['nid']] = $row['title'].' '.$row['field_name_value'].' '.$row['field_otch_value'];
   }
  
   if(empty($form_state['values']['sotrhidden'])) $array = array();
@@ -46,13 +54,12 @@ function fc_form(&$form_state, $my_values = array()) {
    //   'method' => 'append',
       'effect' => 'fade',
       'progress' => array('type' => 'throbber'),
-	         
     ),
   );
   $form['groupsotr'] = array(
-		'#type' => 'fieldset',
-		'#title' => t('Добавленные сотрудники'),
-		'#prefix' => '<div id="fc_form_wrapper">',
+	'#type' => 'fieldset',
+	'#title' => t('Добавленные сотрудники'),
+	'#prefix' => '<div id="fc_form_wrapper">',
     '#suffix' => '</div>',
 	  );
 
@@ -69,13 +76,13 @@ function fc_form(&$form_state, $my_values = array()) {
   
   for($i=0; $i<count($array); $i++){
 	$sotr=$array[$i];
-	   $node = node_load($sotr);
+	  $node = node_load($sotr);	   
 	  $form['groupsotr']['lastname'.$sotr] = array(
 		'#type' => 'textfield',
 		'#default_value' =>isset($my_values['lastname'.$sotr]) ? $my_values['lastname'.$sotr] : $node->title,
-		'#size' => '25',                                  
-	  );
-	 
+		'#size' => '25',
+		'#prefix' => '<div class="newsotrud">',                                
+	  );	 
 	  $form['groupsotr']['field_name'.$sotr] = array(
 		'#type' => 'textfield',
 		'#default_value' => isset($my_values['field_name'.$sotr]) ? $my_values['field_name'.$sotr] : $node->field_name['0']['value'],
@@ -91,20 +98,76 @@ function fc_form(&$form_state, $my_values = array()) {
 		'#default_value' =>isset($my_values['field_birthdate'.$sotr]) ? $my_values['field_birthdate'.$sotr] : date_format_date(date_make_date($node->field_birthdate['0']['value']), 'medium'),
 		'#size' => '25',                                  
 	  );
-	  
+	  foreach ($node->taxonomy as $term) $temp = $term->name;
+	  $form['groupsotr']['taxo'.$sotr] = array(
+		'#type' => 'textfield',
+		'#default_value'=>isset($my_values['taxo'.$sotr]) ? $my_values['taxo'.$sotr] : $temp,
+		'#size' => '25', 
+		'#suffix' => '</div>',                               
+	  );
   }
   $form['sotrhidden'] = array(
     '#type' => 'hidden',
 	'#value'=>implode(',',$array),
   );
   
-  $form['submit'] = array(
+  $form['fastsubmit'] = array(
     '#type' => 'submit',
-    '#value' => 'Submit',   
+    '#value' => 'Отправить сразу',   
+    '#weight' => 99,
+  );
+  
+  $form['next'] = array(
+    '#type' => 'submit',
+    '#value' => 'Предварительный просмотр',   
     '#weight' => 100,
   );
   return $form;
 } 
+
+function fc_form_page_two(&$form_state) {
+  $string = '';
+  if(!empty($form_state['storage']['page_one_values']['name']))
+    $string .= '<p><strong>Тема сообщения:</strong> '.$form_state['storage']['page_one_values']['name'].'</p>';
+  if(!empty($form_state['storage']['page_one_values']['fulltext']))
+    $string .= '<p><strong>Текст:</strong> '.$form_state['storage']['page_one_values']['fulltext'].'</p>';
+  $count = array();
+  if(!empty($form_state['storage']['page_one_values']['sotrhidden']))
+    $count = explode(',',$form_state['storage']['page_one_values']['sotrhidden']);
+  if(count($count)) {
+	$string .= '<p><strong>Выбранные сотрудники</strong></p><table cellspacing="0" cellpadding="10" border="1"><thead><tr><th >Имя</th><th>Дата рождения</th><th>Должность</th></tr><thead>';
+    for($i=0; $i<count($count); $i++){
+	  $string .= '<tr><td>';
+      if(empty($form_state['storage']['page_one_values']['lastname'.$count[$i]]) && empty($form_state['storage']['page_one_values']['field_name'.$count[$i]]) && empty($form_state['storage']['page_one_values']['field_otch'.$count[$i]])) $string .= 'Нет информации';
+	  if(!empty($form_state['storage']['page_one_values']['lastname'.$count[$i]])) 
+	    $string .=$form_state['storage']['page_one_values']['lastname'.$count[$i]].' ';
+	  if(!empty($form_state['storage']['page_one_values']['field_name'.$count[$i]]))
+	    $string .=$form_state['storage']['page_one_values']['field_name'.$count[$i]].' ';
+	  if(!empty($form_state['storage']['page_one_values']['field_otch'.$count[$i]]))
+	    $string .=$form_state['storage']['page_one_values']['field_otch'.$count[$i]];
+	  $string .= '</td>';
+      if(!empty($form_state['storage']['page_one_values']['field_birthdate'.$count[$i]]))
+	    $string .= '<td>'.$form_state['storage']['page_one_values']['field_birthdate'.$count[$i]].'</td>';
+	  else $string .= '<td>Нет информации</td>';
+	  if(!empty($form_state['storage']['page_one_values']['taxo'.$count[$i]]))
+	    $string .= '<td>'.$form_state['storage']['page_one_values']['taxo'.$count[$i]].'</td></tr>';
+	  else $string .= '<td>Нет информации</td></tr>';
+    }
+    $string .= '</table>';
+  }
+  
+  $form['fftext'] = array(
+    '#type' => 'textarea',
+    '#title' => 'Текст письма',
+	'#default_value' => $string,
+  );
+  
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Отправить',
+  );
+  return $form;
+}
 
 function mymodule_menu() {
   $items = array();
@@ -128,7 +191,6 @@ function mymodule_menu() {
 
 function render_fc_form() {
   $out  = drupal_get_form('fc_form');
-  
   return $out;
 }
 
@@ -136,27 +198,33 @@ function fc_form_submit($form, &$form_state) {
 	if (!empty($form_state['ahah_submission'])) {
     return;
   }
-	$form_state['rebuild'] = TRUE;
+	//$form_state['rebuild'] = TRUE;
   if ($form_state['clicked_button']['#id'] == 'edit-submit') {
   }
-  else {
-    // "Add more" button was clicked.
+  if ($form_state['clicked_button']['#id'] == 'edit-next') {
+    $form_state['storage']['page_two'] = TRUE; 
+    $form_state['storage']['page_one_values'] = $form_state['values'];
   }
 }
 
 function fc_form_validate($form_id, &$form_state) { 
-  if ($form_state['clicked_button']['#id'] == 'edit-submit') {
-    $mail = $form_state['values']['email'];
-    if (!valid_email_address($mail)) {
-      form_set_error('email', t('Неправильный формат адреса'));
-    }
+  if ($form_state['clicked_button']['#id'] == 'edit-fastsubmit' || $form_state['clicked_button']['#id'] == 'edit-next') {
+  $mail = $form_state['values']['email'];
+  if (!valid_email_address($mail)) {
+    form_set_error('email', t('Неправильный формат адреса'));
   }
+}
   else {
 	 // drupal_set_message(var_export($form_state, TRUE));
 	//  print_r($form_state);
-	$temparray = explode(',',$form_state['values']['sotrhidden']);  
-	if(in_array($form_state['values']['sotr'], $temparray)){
-	  form_set_error('sotr', t('Нельзя добавить сотрудника дважды'));
+    if ($form_state['clicked_button']['#id'] == 'edit-submit'){
+		
+	}
+	else {
+	  $temparray = explode(',',$form_state['values']['sotrhidden']);  
+	  if(in_array($form_state['values']['sotr'], $temparray)){
+	    form_set_error('sotr', t('Нельзя добавить сотрудника дважды'));
+	  }
 	}
   }
 }

@@ -1,0 +1,14 @@
+#edit-addmore{
+	margin:0;
+}
+#edit-sotr-wrapper{
+	display:inline;
+}
+.newsotrud{
+	margin:0 2em 2em 0;
+	float:left;
+	border-top: 5px solid #D0DAE1;
+}
+.newsotrud .form-item{
+	margin:0.1em 0;
+}
